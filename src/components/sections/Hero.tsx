@@ -128,116 +128,114 @@ export default function Hero() {
       <VideoModal open={modalOpen} onClose={() => setModalOpen(false)} />
 
       {/*
-        Wrapper gives the sticky section scroll travel.
-        On mobile 160vh is enough — the section is shorter so
-        the next section arrives sooner.
+        No wrapper div — the sticky section sits directly in page.tsx flow.
+        The `relative z-10` div wrapping all sections after Hero in page.tsx
+        is what makes them slide over this sticky video background.
       */}
-      <div className="h-[160vh] md:h-[180vh]">
-        <section className="sticky top-0 h-screen w-full overflow-hidden bg-[#1a1a17] z-0">
+      <section className="sticky top-0 h-screen w-full overflow-hidden bg-[#1a1a17] z-0">
 
-          {/* VIDEO */}
-          <div className="absolute inset-0 w-full h-full">
-            <video
-              className="w-full h-full object-cover"
-              autoPlay muted loop playsInline preload="auto" aria-hidden="true"
-            >
-              <source src={VIDEO_SRC} type="video/mp4" />
-            </video>
-            <div className="absolute inset-0 bg-gradient-to-r from-[#1a1a17]/85 via-[#1a1a17]/55 to-[#1a1a17]/25" />
-          </div>
-
-          {/* CONTENT */}
-          <motion.div
-            className="relative z-10 h-full flex items-center"
-            style={{ opacity: contentOpacity, filter: contentBlur, y: contentY }}
+        {/* VIDEO */}
+        <div className="absolute inset-0 w-full h-full">
+          <video
+            className="w-full h-full object-cover"
+            autoPlay muted loop playsInline preload="auto" aria-hidden="true"
           >
-            <div className="mx-auto w-full max-w-6xl px-6 md:px-12 lg:px-20">
-              <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8 lg:gap-8
-                              pt-24 pb-8
-                              md:pt-0 md:pb-0">
+            <source src={VIDEO_SRC} type="video/mp4" />
+          </video>
+          <div className="absolute inset-0 bg-gradient-to-r from-[#1a1a17]/85 via-[#1a1a17]/55 to-[#1a1a17]/25" />
+        </div>
 
-                {/* LEFT — text */}
-                <div className="flex flex-col gap-5 max-w-xl">
-                  <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6, delay: 0.1 }}
-                    className="flex items-center gap-2"
-                  >
-                    <div className="w-1.5 h-1.5 rounded-full bg-[#b6e400]" />
-                    <span className="font-['Jost'] text-[11px] uppercase tracking-widest text-white/60">
-                      {t.hero.tag}
-                    </span>
-                  </motion.div>
+        {/* CONTENT */}
+        <motion.div
+          className="relative z-10 h-full flex items-center"
+          style={{ opacity: contentOpacity, filter: contentBlur, y: contentY }}
+        >
+          <div className="mx-auto w-full max-w-6xl px-6 md:px-12 lg:px-20">
+            <div className="
+              flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8
+              pt-24 pb-8
+              md:pt-0 md:pb-0
+              lg:pt-0 lg:pb-0
+            ">
 
-                  <motion.h1
-                    initial={{ opacity: 0, y: 28 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.75, delay: 0.2, ease: [0.25, 0.1, 0.25, 1] as const }}
-                    className="font-['Geologica'] text-[clamp(2.2rem,6.5vw,5.2rem)] font-light leading-[1.04] tracking-[-0.025em] text-[#f4f3ea]"
-                  >
-                    {t.hero.h1_1} <span className="text-[#b6e400]">{t.hero.h1_2}</span> {t.hero.h1_3}
-                  </motion.h1>
+              {/* LEFT — text */}
+              <div className="flex flex-col gap-5 max-w-xl">
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6, delay: 0.1 }}
+                  className="flex items-center gap-2"
+                >
+                  <div className="w-1.5 h-1.5 rounded-full bg-[#b6e400]" />
+                  <span className="font-['Jost'] text-[11px] uppercase tracking-widest text-white/60">
+                    {t.hero.tag}
+                  </span>
+                </motion.div>
 
-                  <motion.p
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.7, delay: 0.35, ease: [0.25, 0.1, 0.25, 1] as const }}
-                    className="font-['Jost'] text-[16px] leading-relaxed text-white/65 max-w-md"
-                  >
-                    {t.hero.subtitle}
-                  </motion.p>
+                <motion.h1
+                  initial={{ opacity: 0, y: 28 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.75, delay: 0.2, ease: [0.25, 0.1, 0.25, 1] as const }}
+                  className="font-['Geologica'] text-[clamp(2.2rem,6.5vw,5.2rem)] font-light leading-[1.04] tracking-[-0.025em] text-[#f4f3ea]"
+                >
+                  {t.hero.h1_1} <span className="text-[#b6e400]">{t.hero.h1_2}</span> {t.hero.h1_3}
+                </motion.h1>
 
-                  <motion.div
-                    initial={{ opacity: 0, y: 16 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.65, delay: 0.48 }}
-                    className="flex flex-wrap items-center gap-3"
-                  >
-                    <Button href="/contact" variant="accent">{t.hero.cta_contact}</Button>
-                    <Button href="/about" variant="outline">{t.hero.cta_learn}</Button>
-                  </motion.div>
+                <motion.p
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.7, delay: 0.35, ease: [0.25, 0.1, 0.25, 1] as const }}
+                  className="font-['Jost'] text-[16px] leading-relaxed text-white/65 max-w-md"
+                >
+                  {t.hero.subtitle}
+                </motion.p>
 
-                  <motion.div
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ delay: 0.7, duration: 0.5 }}
-                    className="flex items-center gap-3"
-                  >
-                    <div className="flex -space-x-2.5">
-                      {[0, 1, 2].map((i) => (
-                        <div key={i} className="w-7 h-7 rounded-full border-2 border-[#f4f3ea] bg-[#b6e400]/30" />
-                      ))}
-                    </div>
-                    <p className="font-['Jost'] text-[13px] text-[#f4f3ea]/70 leading-snug">
-                      {t.hero.trust}
-                    </p>
-                  </motion.div>
-                </div>
+                <motion.div
+                  initial={{ opacity: 0, y: 16 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.65, delay: 0.48 }}
+                  className="flex flex-wrap items-center gap-3"
+                >
+                  <Button href="/contact" variant="accent">{t.hero.cta_contact}</Button>
+                  <Button href="/about" variant="outline">{t.hero.cta_learn}</Button>
+                </motion.div>
 
-                {/* RIGHT — glass card
-                    On mobile: shown below text, smaller, fully visible
-                    On desktop: shown to the right
-                */}
-                <div className="flex justify-center lg:justify-end">
-                  <GlassCard onPlay={() => setModalOpen(true)} />
-                </div>
-
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 0.7, duration: 0.5 }}
+                  className="flex items-center gap-3"
+                >
+                  <div className="flex -space-x-2.5">
+                    {[0, 1, 2].map((i) => (
+                      <div key={i} className="w-7 h-7 rounded-full border-2 border-[#f4f3ea] bg-[#b6e400]/30" />
+                    ))}
+                  </div>
+                  <p className="font-['Jost'] text-[13px] text-[#f4f3ea]/70 leading-snug">
+                    {t.hero.trust}
+                  </p>
+                </motion.div>
               </div>
+
+              {/* RIGHT — glass card */}
+              <div className="flex justify-center lg:justify-end">
+                <GlassCard onPlay={() => setModalOpen(true)} />
+              </div>
+
             </div>
-          </motion.div>
+          </div>
+        </motion.div>
 
-          {/* Scroll indicator — desktop only, hidden on mobile to save space */}
-          <motion.div
-            style={{ opacity: contentOpacity }}
-            className="hidden md:flex absolute bottom-8 left-1/2 -translate-x-1/2 flex-col items-center gap-2 pointer-events-none"
-          >
-            <span className="font-['Jost'] text-[10px] uppercase tracking-[0.2em] text-white/40">{t.hero.scroll}</span>
-            <div className="w-px h-8 bg-gradient-to-b from-white/40 to-transparent" />
-          </motion.div>
+        {/* Scroll indicator — desktop only */}
+        <motion.div
+          style={{ opacity: contentOpacity }}
+          className="hidden md:flex absolute bottom-8 left-1/2 -translate-x-1/2 flex-col items-center gap-2 pointer-events-none"
+        >
+          <span className="font-['Jost'] text-[10px] uppercase tracking-[0.2em] text-white/40">{t.hero.scroll}</span>
+          <div className="w-px h-8 bg-gradient-to-b from-white/40 to-transparent" />
+        </motion.div>
 
-        </section>
-      </div>
+      </section>
     </>
   );
 }
