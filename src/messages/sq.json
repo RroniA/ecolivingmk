@@ -1,0 +1,175 @@
+{
+  "hero": {
+    "tag": "Menaxhimi i Mbeturinave · Gostivar, MK",
+    "h1_1": "E Gjelbër Sot.",
+    "h1_2": "E Gjelbër",
+    "h1_3": "Për Gjithmonë.",
+    "subtitle": "Ofrojmë shërbime cilësore, të përballueshme dhe të besueshme të grumbullimit të mbeturinave në të gjithë Maqedoninë Perëndimore.",
+    "cta_contact": "Na Kontaktoni",
+    "cta_learn": "Mëso Më Shumë",
+    "trust": "120+ kompani na besojnë",
+    "watch": "Shiko historinë tonë",
+    "watch_video": "Shiko videon",
+    "happy_clients": "Klientë të kënaqur",
+    "companies": "Kompani",
+    "scroll": "Rrëshqit"
+  },
+  "about": {
+    "tag": "Revolucioni i Energjisë së Gjelbër",
+    "heading": "Një kompani lider në menaxhimin e mbeturinave e përkushtuar ndaj zgjidhjeve të qëndrueshme për një botë më të gjelbër.",
+    "cta": "Mëso Më Shumë",
+    "pillars": [
+      { "index": "01", "title": "Vizioni Ynë",  "body": "Një Maqedoni e Veriut ku mbeturinat menaxhohen me përgjegjësi në çdo nivel — nga familjet deri te objektet industriale — duke krijuar hapësira publike më të pastra për brezat që vijnë." },
+      { "index": "02", "title": "Misioni Ynë",  "body": "Të ofrojmë shërbime cilësore dhe të përballueshme të grumbullimit të mbeturinave nga të cilat komunitetet mund të varen. Marrje në kohë, komunikim i qartë dhe angazhim i vërtetë ndaj mjedisit." },
+      { "index": "03", "title": "Puna Jonë",    "body": "Nga qiratë e kontejnerëve dhe grumbullimi i mbeturinave deri te heqja e plotë e mbeturinave të demolimit, ne trajtojmë çdo punë me të njëjtin standard — qoftë një familje e vetme apo një kantier i madh ndërtimi." }
+    ],
+    "stats": [
+      { "value": "36,000+", "label": "Klientë të Kënaqur" },
+      { "value": "120+",    "label": "Kompani Partnere" },
+      { "value": "10+",     "label": "Projekte të Përfunduara" },
+      { "value": "3",       "label": "Rajone të Mbuluara" }
+    ]
+  },
+  "about_page": {
+    "tag": "Kush Jemi Ne",
+    "h1": "Të përkushtuar për një Maqedoni të Veriut më të pastër.",
+    "subtitle": "Eco Living është një kompani menaxhimi mbeturinash që u shërben bashkive, bizneseve dhe familjeve në të gjithë rajonin e Maqedonisë Perëndimore — duke ofruar shërbime koleksioni të besueshme, të përballueshme dhe me përgjegjësi mjedisore.",
+    "pull_quote": "Ne besojmë se menaxhimi i duhur i mbeturinave nuk është luks — është themeli i komuniteteve të shëndetshme. Që nga themelimi ynë, kemi punuar krahas qeverive lokale, kompanive private dhe banorëve për të ndërtuar sisteme që vërtet funksionojnë: marrje në kohë, komunikim i qartë dhe angazhim i vërtetë për të reduktuar ndikimin mjedisor.",
+    "stats": [
+      { "value": "36,000+", "label": "Klientë të kënaqur" },
+      { "value": "120+",    "label": "Kompani partnere" },
+      { "value": "10+",     "label": "Projekte të përfunduara" },
+      { "value": "3",       "label": "Rajone të mbuluara" }
+    ],
+    "values_label": "Çfarë na shtyn",
+    "values_heading": "Vizioni, misioni dhe etika jonë e punës.",
+    "values": [
+      { "index": "01 — Vizioni",   "title": "Një e ardhme më e gjelbër për çdo komunitet.",   "body": "Ne imagjinojmë një Maqedoni të Veriut ku mbeturinat menaxhohen me përgjegjësi në çdo nivel — duke krijuar hapësira publike më të pastra dhe një mjedis më të shëndetshëm për brezat që vijnë." },
+      { "index": "02 — Misioni",   "title": "Shërbim i besueshëm, i ofruar me kujdes.",       "body": "Misioni ynë është të ofrojmë shërbime cilësore dhe të përballueshme të menaxhimit të mbeturinave nga të cilat komunitetet mund të varen — duke u shfaqur në kohë, duke trajtuar çdo klient me respekt dhe duke përmirësuar vazhdimisht mënyrën e operimit." },
+      { "index": "03 — Puna Jonë", "title": "Praktik, lokal dhe me llogaridhënie.",            "body": "Nga qiratë e kontejnerëve dhe grumbullimi i mbeturinave deri te heqja e plotë e mbeturinave të demolimit, ne trajtojmë çdo punë me të njëjtin standard profesionalizmi — qoftë një familje e vetme apo një kantier i madh ndërtimi në të gjithë rajonin." }
+    ],
+    "services_label": "Çfarë ofrojmë",
+    "services_heading": "Tre shërbime kryesore, një ekip i besueshëm.",
+    "services_cta": "Kërko një Ofertë",
+    "services": [
+      { "href": "/garbage-pickup",   "title": "Grumbullim Mbeturinash", "body": "Grumbullim i planifikuar dhe me kërkesë i mbeturinave për shtëpi, biznese dhe bashki në të gjithë rajonin.", "link": "Shiko Detajet →" },
+      { "href": "/dumpster-rental",  "title": "Qira Kontejnerësh",      "body": "Qira afatshkurtër dhe afatgjatë kontejnerësh për kantiere ndërtimi, rinovime dhe pastrimi të mëdha.", "link": "Shiko Detajet →" },
+      { "href": "/house-demolition", "title": "Demolim Shtëpish",       "body": "Demolim i sigurt dhe i pajtueshëm dhe heqje mbeturinash nga një ekip vendor me përvojë.", "link": "Shiko Detajet →" }
+    ],
+    "cta_label": "Gati për të filluar?",
+    "cta_heading": "Le të ndërtojmë së bashku një zgjidhje më të pastër.",
+    "cta_body": "Qoftë nëse keni nevojë për një orar të rregullt marrjeje ose një kontejner të vetëm, kontaktoni dhe do t'ju kthejmë përgjigje brenda 24–48 orëve.",
+    "cta_button": "Na Kontaktoni"
+  },
+  "contact_page": {
+    "tag": "Na Kontaktoni",
+    "h1": "Jemi këtu kur na keni nevojë.",
+    "subtitle": "Kontaktoni me telefon ose email — i kthejmë përgjigje brenda 24–48 orëve dhe jemi të lumtur të diskutojmë çdo nevojë për menaxhimin e mbeturinave, të vogël apo të madh.",
+    "phone_label": "Telefon",
+    "phone_sub": "E Hënë – E Premte, 08:00 – 17:00",
+    "email_label": "Email",
+    "email_sub": "I kthejmë përgjigje brenda 24–48 orëve",
+    "open": "Hap →",
+    "form_label": "Dërgo një mesazh",
+    "form_heading": "Na tregoni çfarë keni nevojë.",
+    "form_sub": "Plotësoni formularin dhe një anëtar i ekipit tonë do t'ju kthejë përgjigje së shpejti.",
+    "field_name": "Emri i Plotë",
+    "field_name_placeholder": "Emri juaj",
+    "field_email": "Email",
+    "field_phone": "Telefon",
+    "field_service": "Shërbimi",
+    "field_service_placeholder": "Zgjidhni një shërbim…",
+    "field_message": "Mesazhi",
+    "field_message_placeholder": "Përshkruani nevojat tuaja…",
+    "service_options": ["Grumbullim Mbeturinash", "Qira Kontejnerësh", "Demolim Shtëpish", "Tjetër"],
+    "send": "Dërgo Mesazhin",
+    "send_note": "Do t'ju kthejmë përgjigje brenda 24–48 orëve.",
+    "map_label": "Vendndodhja jonë",
+    "map_heading": "Bazuar në Gostivar, duke i shërbyer rajonit.",
+    "map_body": "Ne operojmë në të gjithë rajonin e Maqedonisë Perëndimore, duke mbuluar Gostavarin, Çegranën, Bërvenicën dhe Xhelinon.",
+    "social_text": "Ndiqni mediat tona sociale për përditësime dhe pika projekti.",
+    "facebook": "Facebook",
+    "instagram": "Instagram"
+  },
+  "services": {
+    "tag": "Çfarë Ofrojmë",
+    "heading": "Zgjidhjet Tona Më të Mira",
+    "subtitle": "Tre shërbime kryesore të ndërtuara rreth besueshmërisë, transparencës dhe përgjegjësisë mjedisore.",
+    "view_details": "Shiko Detajet",
+    "label": "Shërbime",
+    "items": [
+      { "title": "Grumbullim Mbeturinash", "description": "Grumbullim i planifikuar dhe me kërkesë i mbeturinave për shtëpi, biznese dhe bashki. I besueshëm, i saktë dhe me çmim të drejtë." },
+      { "title": "Qira Kontejnerësh",      "description": "Qira afatshkurtër dhe afatgjatë kontejnerësh për kantiere ndërtimi, rinovime dhe pastrimi të mëdha në të gjithë rajonin." },
+      { "title": "Demolim Shtëpish",       "description": "Demolim i sigurt dhe i pajtueshëm si dhe heqje mbeturinash nga një ekip vendor me përvojë me pastrim të plotë të kantierit." }
+    ]
+  },
+  "projects": {
+    "tag": "Puna Jonë",
+    "heading": "Ekspozitë e Projekteve të Përfunduara",
+    "items": [
+      { "title": "Pastrimi Komunal i Çegranës",            "location": "Çegranë, Gostivar" },
+      { "title": "Programi i Kontejnerëve të Bërvenicës", "location": "Bërvenicë" },
+      { "title": "Grumbullimi i Mbeturinave në Xhelino",  "location": "Xhelino" }
+    ]
+  },
+  "map": {
+    "tag": "Vështrim i Projekteve",
+    "heading": "Kemi Përfunduar Menaxhimin e Mbeturinave në 3 Rajone",
+    "stats": [
+      { "value": "10+",   "label": "Projekte të Përfunduara" },
+      { "value": "3.6K+", "label": "Klientë të Kënaqur" },
+      { "value": "3",     "label": "Rajone të Mbuluara" }
+    ],
+    "hq": "Selia Qendrore"
+  },
+  "partners": {
+    "tag": "Partnerë të Besuar",
+    "heading": "Të besuar nga 100+ kompani.",
+    "subtitle": "Punojmë me bashki, firma ndërtimi dhe kompani private në të gjithë rajonin."
+  },
+  "garbage_pickup": {
+    "tag": "Grumbullim Mbeturinash",
+    "title": "Grumbullim i Besueshëm Mbeturinash, Çdo Herë.",
+    "subtitle": "Ofrojmë grumbullim të planifikuar mbeturinash për shtëpi dhe biznese në të gjithë Maqedoninë e Veriut — i qëndrueshëm, i përballueshëm dhe me përgjegjësi mjedisore.",
+    "blurb": "Grumbullimi i mbeturinave nuk duhet të jetë diçka për të cilën duhet të mendoni. Ekipi ynë siguron që mbeturinat tuaja të merren në kohë, çdo herë, të renditura siç duhet dhe të dërguara në objektet e certifikuara të përpunimit — kështu që ju mund të përqendroheni në atë që ka rëndësi.",
+    "features_heading": "Çfarë përfshihet në çdo marrje",
+    "cta_heading": "Gati për të vendosur një orar grumbullimi?",
+    "cta_body": "Qoftë një familje që kërkon marrje të rregullt ose një biznes që menaxhon volum të madh, ne do të hartojmë një plan që funksionon për ju.",
+    "features": [
+      { "title": "Grumbullim i Planifikuar Javor", "description": "Marrje e besueshme, në kohë, sipas një orari që i përshtatet familjes ose biznesit tuaj. Pa ditë të humbura, pa vonesa — ne tregohemi kur themi." },
+      { "title": "Mbeturina të Renditura dhe të Ndara", "description": "Grumbullojmë mbeturinat e përgjithshme, të riciklueshmet dhe mbeturinat organike veçmas — duke mbështetur përpunimin e duhur në objekte të certifikuara në të gjithë rajonin." },
+      { "title": "Orare Fleksibël Marrjeje", "description": "Disponohen dritare në mëngjes ose pasdite. Ne punojmë rreth orarit tuaj kështu që grumbullimi i mbeturinave nuk e pengon kurrë ditën tuaj." },
+      { "title": "Banesore dhe Komerciale", "description": "Nga familjet e vetme deri te komplekset e mëdha të zyrave, flota dhe kapaciteti ynë shkallëzohen për të përmbushur çdo vëllim grumbullimi mbeturinash." }
+    ]
+  },
+  "dumpster_rental": {
+    "tag": "Qira Kontejnerësh",
+    "title": "Kontejneri i Duhur për Çdo Punë.",
+    "subtitle": "Qira afatshkurtër ose afatgjatë kontejnerësh për ndërtim, rinovim, ngjarje dhe pastrimi komerciale — i dorëzuar shpejt, i marrë sipas kërkesës.",
+    "blurb": "Projektet e mëdha gjenerojnë mbeturina të mëdha. Shërbimi ynë i qirasë së kontejnerëve ju jep hapësirën që ju nevojitet, saktësisht ku ju nevojitet. Ne trajtojmë dorëzimin, marrjen dhe asgjësimin e përgjegjshëm — kështu që kantieri juaj mbetet i pastër dhe projekti juaj mbetet sipas orarit.",
+    "features_heading": "Gjithçka e përfshirë në qiranë tuaj",
+    "cta_heading": "Keni nevojë për një kontejner të dorëzuar nesër?",
+    "cta_body": "Na tregoni madhësinë që ju nevojitet, ku ta vendosim dhe për sa kohë. Ne do të trajtojmë gjithçka tjetër dhe do ta kemi në kantier tuajin brenda 24 orëve.",
+    "features": [
+      { "title": "Madhësi të Shumta Kontejnerësh", "description": "Nga kontejnerët kompaktë 6 m³ për rinovimet shtëpiake deri te njësitë industriale 30 m³ për kantiere ndërtimi — kemi madhësinë e duhur për çdo punë." },
+      { "title": "Dorëzim dhe Marrje e Shpejtë",   "description": "Kontejneri dorëzohet në vendndodhjen tuaj brenda 24 orëve nga rezervimi. Kur mbaroni, ne e marrim menjëherë — pa pritje, pa telashe." },
+      { "title": "Periudha Fleksibël Qiraje",       "description": "Merrni me qira sipas ditës, javës ose muajit. Zgjasni qiranë tuaj me një telefonatë të vetme — pa gjoba, pa dokumentacion." },
+      { "title": "Asgjësim i Përgjegjshëm",         "description": "Të gjitha mbeturinat e grumbulluara transportohen në objekte të certifikuara renditjeje dhe asgjësimi. Materialet e riciklueshme ndahen dhe përpunohen siç duhet." }
+    ]
+  },
+  "house_demolition": {
+    "tag": "Demolim Shtëpish",
+    "title": "Demolim i Sigurt dhe i Pastër nga Fillimi deri në Fund.",
+    "subtitle": "Demolim profesional strukturor për prona banesore dhe komerciale — me heqje të plotë mbeturinash, pastrim kantieri dhe asistencë lejedërgimi të përfshirë.",
+    "blurb": "Demolimi është më shumë se rrëzimi i mureve. Kërkon planifikim të kujdesshëm, pajisjet e duhura dhe një qasje të përgjegjshme ndaj asaj që ndodh me materialet pas. Ekipi ynë menaxhon të gjithë procesin — nga lejedërgimi deri te pastrimi final i kantierit — kështu që ju filloni projektin tuaj të ardhshëm në bazë solide.",
+    "features_heading": "Çfarë trajtojmë për ju",
+    "cta_heading": "Po planifikoni një projekt demolimi?",
+    "cta_body": "Na kontaktoni dhe ne do të vlerësojmë kantierit tuaj, do t'ju udhëzojmë nëpër proces dhe do të ofrojmë një ofertë të qartë. Pa surpriza, pa kosto të fshehura.",
+    "features": [
+      { "title": "Demolim i Plotë Strukturor",          "description": "Rrëzim i plotë i strukturave banesore dhe komerciale të vogla, i kryer me siguri dhe efikasitet nga ekipi ynë me përvojë." },
+      { "title": "Lejedërgime dhe Dokumentacion",       "description": "Ne ndihmojmë në sigurimin e lejedërgimeve të nevojshme dhe sigurojmë që të gjitha punimet e demolimit të jenë në përputhje me rregulloret lokale në Maqedoninë e Veriut." },
+      { "title": "Heqja e Mbeturinave dhe Pastrimi",   "description": "Pasi demolimi të jetë i plotë, ne heqim të gjitha mbeturinat dhe e lëmë kantierit të pastër dhe të liruar — gati për fazën tuaj të ardhshme të ndërtimit." },
+      { "title": "Operacion i Sigurt dhe i Siguruar",  "description": "I gjithë demolimi kryhet me mbulim të plotë sigurimesh, pajisje të duhura sigurie dhe protokolle strikte për të mbrojtur pronën tuaj dhe ekipin tonë." }
+    ]
+  }
+}

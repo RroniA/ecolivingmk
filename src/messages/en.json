@@ -1,0 +1,175 @@
+{
+  "hero": {
+    "tag": "Waste Management · Gostivar, MK",
+    "h1_1": "Green Today.",
+    "h1_2": "Green",
+    "h1_3": "For Life.",
+    "subtitle": "Providing quality, affordable, and reliable waste collection services across Western Macedonia.",
+    "cta_contact": "Contact Us",
+    "cta_learn": "Learn More",
+    "trust": "120+ companies trust us",
+    "watch": "Watch our story",
+    "watch_video": "Watch video",
+    "happy_clients": "Happy clients",
+    "companies": "Companies",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "tag": "Green Energy Revolution",
+    "heading": "A leading waste management company dedicated to sustainable solutions for a greener world.",
+    "cta": "Learn More",
+    "pillars": [
+      { "index": "01", "title": "Our Vision",  "body": "A North Macedonia where waste is managed responsibly at every level — from households to industrial sites — creating cleaner public spaces for generations to come." },
+      { "index": "02", "title": "Our Mission", "body": "To provide quality, affordable waste collection services that communities can depend on. Punctual pickups, clear communication, and a genuine commitment to the environment." },
+      { "index": "03", "title": "Our Work",    "body": "From dumpster rentals and garbage pickups to full demolition waste removal, we handle every job with the same standard — whether a single household or a large construction site." }
+    ],
+    "stats": [
+      { "value": "36,000+", "label": "Happy Clients" },
+      { "value": "120+",    "label": "Partner Companies" },
+      { "value": "10+",     "label": "Projects Completed" },
+      { "value": "3",       "label": "Regions Covered" }
+    ]
+  },
+  "about_page": {
+    "tag": "Who We Are",
+    "h1": "Committed to a cleaner North Macedonia.",
+    "subtitle": "Eco Living is a waste management company serving municipalities, businesses, and households across the Western Macedonia region — delivering reliable, affordable, and environmentally responsible collection services.",
+    "pull_quote": "We believe proper waste management isn't a luxury — it's a foundation for healthy communities. Since our founding, we have worked alongside local governments, private companies, and residents to build systems that actually work: punctual pickups, clear communication, and a genuine commitment to reducing environmental impact.",
+    "stats": [
+      { "value": "36,000+", "label": "Happy clients" },
+      { "value": "120+",    "label": "Partner companies" },
+      { "value": "10+",     "label": "Projects completed" },
+      { "value": "3",       "label": "Regions covered" }
+    ],
+    "values_label": "What drives us",
+    "values_heading": "Our vision, mission, and work ethic.",
+    "values": [
+      { "index": "01 — Vision",   "title": "A greener future for every community.",     "body": "We envision a North Macedonia where waste is managed responsibly at every level — from households to industrial sites — creating cleaner public spaces and a healthier environment for generations to come." },
+      { "index": "02 — Mission",  "title": "Reliable service, delivered with care.",     "body": "Our mission is to provide quality, affordable waste collection and management services that communities can depend on — showing up on time, treating every client with respect, and continuously improving how we operate." },
+      { "index": "03 — Our Work", "title": "Hands-on, local, and accountable.",          "body": "From dumpster rentals and garbage pickups to full demolition waste removal, we handle every job with the same standard of professionalism — whether it is a single household or a large construction site across the region." }
+    ],
+    "services_label": "What we offer",
+    "services_heading": "Three core services, one reliable team.",
+    "services_cta": "Get a Quote",
+    "services": [
+      { "href": "/garbage-pickup",   "title": "Garbage Pickup",   "body": "Scheduled and on-demand waste collection for homes, businesses, and municipalities throughout the region.", "link": "View Details →" },
+      { "href": "/dumpster-rental",  "title": "Dumpster Rental",  "body": "Short and long-term container rental for construction sites, renovations, and large-scale cleanouts.", "link": "View Details →" },
+      { "href": "/house-demolition", "title": "House Demolition", "body": "Safe, compliant demolition and debris removal handled by an experienced local crew.", "link": "View Details →" }
+    ],
+    "cta_label": "Ready to start?",
+    "cta_heading": "Let's build a cleaner solution together.",
+    "cta_body": "Whether you need a recurring pickup schedule or a one-off container, reach out and we will get back to you within 24–48 hours.",
+    "cta_button": "Contact Us"
+  },
+  "contact_page": {
+    "tag": "Get in Touch",
+    "h1": "We're here when you need us.",
+    "subtitle": "Reach out by phone or email — we respond within 24–48 hours and are happy to discuss any waste management need, big or small.",
+    "phone_label": "Phone",
+    "phone_sub": "Monday – Friday, 08:00 – 17:00",
+    "email_label": "Email",
+    "email_sub": "We reply within 24–48 hours",
+    "open": "Open →",
+    "form_label": "Send a message",
+    "form_heading": "Tell us what you need.",
+    "form_sub": "Fill in the form and a member of our team will get back to you shortly.",
+    "field_name": "Full Name",
+    "field_name_placeholder": "Your name",
+    "field_email": "Email",
+    "field_phone": "Phone",
+    "field_service": "Service",
+    "field_service_placeholder": "Select a service…",
+    "field_message": "Message",
+    "field_message_placeholder": "Describe your needs…",
+    "service_options": ["Garbage Pickup", "Dumpster Rental", "House Demolition", "Other"],
+    "send": "Send Message",
+    "send_note": "We'll respond within 24–48 hours.",
+    "map_label": "Our location",
+    "map_heading": "Based in Gostivar, serving the region.",
+    "map_body": "We operate across the Western Macedonia region, covering Gostivar, Chegrane, Brvenitsa, and Želino.",
+    "social_text": "Follow us on social media for updates and project highlights.",
+    "facebook": "Facebook",
+    "instagram": "Instagram"
+  },
+  "services": {
+    "tag": "What We Offer",
+    "heading": "Our Best Solutions",
+    "subtitle": "Three core services built around reliability, transparency, and environmental responsibility.",
+    "view_details": "View Details",
+    "label": "Services",
+    "items": [
+      { "title": "Garbage Pickup",   "description": "Scheduled and on-demand waste collection for homes, businesses, and municipalities. Reliable, punctual, and priced fairly." },
+      { "title": "Dumpster Rental",  "description": "Short and long-term container rental for construction sites, renovations, and large-scale cleanouts across the region." },
+      { "title": "House Demolition", "description": "Safe, compliant demolition and debris removal handled by an experienced local crew with full site cleanup." }
+    ]
+  },
+  "projects": {
+    "tag": "Our Work",
+    "heading": "Showcase of Completed Projects",
+    "items": [
+      { "title": "Chegrane Municipal Cleanup",  "location": "Chegrane, Gostivar" },
+      { "title": "Brvenitsa Dumpster Program",  "location": "Brvenitsa" },
+      { "title": "Želino Waste Collection",     "location": "Želino" }
+    ]
+  },
+  "map": {
+    "tag": "Overview Projects",
+    "heading": "We Completed Waste Management Across 3 Regions",
+    "stats": [
+      { "value": "10+",   "label": "Projects Completed" },
+      { "value": "3.6K+", "label": "Satisfied Clients" },
+      { "value": "3",     "label": "Regions Covered" }
+    ],
+    "hq": "HQ"
+  },
+  "partners": {
+    "tag": "Trusted Partners",
+    "heading": "Trusted by 100+ companies.",
+    "subtitle": "We work with municipalities, construction firms, and private companies across the region."
+  },
+  "garbage_pickup": {
+    "tag": "Garbage Pickup",
+    "title": "Reliable Waste Collection, Every Time.",
+    "subtitle": "We provide scheduled garbage pickup for homes and businesses throughout North Macedonia — consistent, affordable, and environmentally responsible.",
+    "blurb": "Waste collection shouldn't be something you have to think about. Our team ensures your garbage is picked up on time, every time, properly sorted and delivered to certified processing facilities — so you can focus on what matters.",
+    "features_heading": "What's included in every pickup",
+    "cta_heading": "Ready to set up a collection schedule?",
+    "cta_body": "Whether you're a household looking for regular pickup or a business managing large volumes, we'll put together a plan that works for you.",
+    "features": [
+      { "title": "Scheduled Weekly Collection", "description": "Reliable, on-time pickup on a schedule that fits your household or business. No missed days, no delays — we show up when we say we will." },
+      { "title": "Sorted & Separated Waste",    "description": "We collect general waste, recyclables, and organic waste separately — supporting proper processing at certified facilities across the region." },
+      { "title": "Flexible Pickup Timeframes",  "description": "Morning or afternoon windows available. We work around your schedule so waste collection never disrupts your day." },
+      { "title": "Residential & Commercial",    "description": "From single households to large office complexes, our fleet and capacity scale to meet any volume of waste collection." }
+    ]
+  },
+  "dumpster_rental": {
+    "tag": "Dumpster Rental",
+    "title": "The Right Container for Any Job.",
+    "subtitle": "Short-term or long-term dumpster rental for construction, renovation, events, and commercial cleanouts — delivered fast, picked up on demand.",
+    "blurb": "Big projects generate big waste. Our container rental service gives you the space you need, exactly where you need it. We handle delivery, pickup, and responsible disposal — so your site stays clean and your project stays on schedule.",
+    "features_heading": "Everything included in your rental",
+    "cta_heading": "Need a container delivered tomorrow?",
+    "cta_body": "Tell us the size you need, where to drop it, and for how long. We'll handle everything else and have it at your site within 24 hours.",
+    "features": [
+      { "title": "Multiple Container Sizes", "description": "From compact 6 m³ containers for home renovations to 30 m³ industrial units for construction sites — we have the right size for every job." },
+      { "title": "Fast Delivery & Pickup",   "description": "Container delivered to your location within 24 hours of booking. When you're done, we pick it up promptly — no waiting, no hassle." },
+      { "title": "Flexible Rental Periods",  "description": "Rent by the day, week, or month. Extend your rental with a single call — no penalties, no paperwork." },
+      { "title": "Responsible Disposal",     "description": "All collected waste is transported to certified sorting and disposal facilities. Recyclable materials are separated and processed appropriately." }
+    ]
+  },
+  "house_demolition": {
+    "tag": "House Demolition",
+    "title": "Safe, Clean Demolition From Start to Finish.",
+    "subtitle": "Professional structural demolition for residential and commercial properties — with full debris removal, site cleanup, and permit assistance included.",
+    "blurb": "Demolition is more than knocking walls down. It requires careful planning, the right equipment, and a responsible approach to what happens to the materials after. Our team manages the entire process — from permits to the final site cleanup — so you start your next project on solid ground.",
+    "features_heading": "What we handle for you",
+    "cta_heading": "Planning a demolition project?",
+    "cta_body": "Get in touch and we'll assess your site, walk you through the process, and provide a clear quote. No surprises, no hidden costs.",
+    "features": [
+      { "title": "Full Structural Demolition",    "description": "Complete teardown of residential and small commercial structures, carried out safely and efficiently by our experienced crew." },
+      { "title": "Permits & Documentation",       "description": "We assist with securing the necessary permits and ensure all demolition work complies with local regulations in North Macedonia." },
+      { "title": "Debris Removal & Site Cleanup", "description": "Once demolition is complete, we remove all debris and leave the site clean and cleared — ready for your next construction phase." },
+      { "title": "Safe & Insured Operation",      "description": "All demolition is carried out with full insurance coverage, proper safety equipment, and strict protocols to protect your property and our crew." }
+    ]
+  }
+}
