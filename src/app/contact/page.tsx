@@ -62,9 +62,9 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-[#ddddd2]">
             {/* Phone */}
             <FadeUp delay={0}>
-              <a href="tel:+389XXXXXXXX" className="group flex flex-col gap-4 p-8 border border-[#ddddd2] hover:border-[#1a1a17] transition-colors h-full">
+              <a href="tel:+38972363333" className="group flex flex-col gap-4 p-8 border border-[#ddddd2] hover:border-[#1a1a17] transition-colors h-full">
                 <span className="font-['Jost'] text-[11px] uppercase tracking-widest text-[#7a7a6e]">01 — {c.phone_label}</span>
-                <p className="font-['Geologica'] text-[clamp(1.2rem,2.5vw,1.75rem)] font-light leading-tight text-[#1a1a17]">+389 XX XXX XXX</p>
+                <p className="font-['Geologica'] text-[clamp(1.2rem,2.5vw,1.75rem)] font-light leading-tight text-[#1a1a17]">+389 72 363 333</p>
                 <p className="font-['Jost'] text-[14px] text-[#7a7a6e]">{c.phone_sub}</p>
                 <span className="mt-auto font-['Jost'] text-[13px] text-[#b6e400] opacity-0 group-hover:opacity-100 transition-opacity">{c.open}</span>
               </a>

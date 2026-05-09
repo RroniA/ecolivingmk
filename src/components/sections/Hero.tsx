@@ -128,11 +128,10 @@ export default function Hero() {
       <VideoModal open={modalOpen} onClose={() => setModalOpen(false)} />
 
       {/*
-        No wrapper div — the sticky section sits directly in page.tsx flow.
-        The `relative z-10` div wrapping all sections after Hero in page.tsx
-        is what makes them slide over this sticky video background.
+        FIX 1: Changed `h-screen` to `h-[100dvh]`. 
+        This respects mobile browser toolbars dynamically.
       */}
-      <section className="sticky top-0 h-screen w-full overflow-hidden bg-[#1a1a17] z-0">
+      <section className="sticky top-0 h-[100dvh] w-full overflow-hidden bg-[#1a1a17] z-0">
 
         {/* VIDEO */}
         <div className="absolute inset-0 w-full h-full">
@@ -151,15 +150,21 @@ export default function Hero() {
           style={{ opacity: contentOpacity, filter: contentBlur, y: contentY }}
         >
           <div className="mx-auto w-full max-w-6xl px-6 md:px-12 lg:px-20">
+            {/* 
+              FIX 2: Tightened mobile spacing. 
+              Changed gap-8 to gap-6, pt-24 to pt-20, and pb-8 to pb-4 for mobile only.
+              This ensures the stack doesn't overflow the sticky container on small phones.
+            */}
             <div className="
-              flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8
-              pt-24 pb-8
+              flex flex-col lg:flex-row lg:items-center lg:justify-between 
+              gap-6 md:gap-8
+              pt-20 pb-4
               md:pt-0 md:pb-0
-              lg:pt-0 lg:pb-0
             ">
 
               {/* LEFT — text */}
-              <div className="flex flex-col gap-5 max-w-xl">
+              {/* FIX 3: Tightened gap-5 to gap-4 on mobile */}
+              <div className="flex flex-col gap-4 md:gap-5 max-w-xl">
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}

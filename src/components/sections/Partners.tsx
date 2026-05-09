@@ -4,22 +4,39 @@ import { motion } from "framer-motion";
 import SectionTag from "@/components/ui/SectionTag";
 import { useI18n } from "@/lib/i18n";
 
+// 1. Add your real image paths to the array. 
+// Duplicated them here just so the marquee has enough items to scroll smoothly.
 const partners = [
-  { name: "Partner One",   abbr: "P1" },
-  { name: "Partner Two",   abbr: "P2" },
-  { name: "Partner Three", abbr: "P3" },
-  { name: "Partner Four",  abbr: "P4" },
-  { name: "Partner Five",  abbr: "P5" },
-  { name: "Partner Six",   abbr: "P6" },
-  { name: "Partner Seven", abbr: "P7" },
+  { name: "Kipper", src: "/kipper.png" },
+  { name: "Veze Sharri", src: "/vezesharri.png" },
+  { name: "Lear Corporation", src: "/Lear_Corporation_logo.svg.svg" },
+  { name: "Eurovia", src: "/Eurovia.svg" },
+  { name: "Kipper", src: "/kipper.png" },
+  { name: "Veze Sharri", src: "/vezesharri.png" },
+  { name: "Lear Corporation", src: "/Lear_Corporation_logo.svg.svg" },
+  { name: "Eurovia", src: "/Eurovia.svg" },
 ];
 
-function LogoPlaceholder({ name, abbr }: { name: string; abbr: string }) {
+// 2. New Image Component
+function LogoImage({ name, src }: { name: string; src: string }) {
   return (
-    <div className="flex items-center justify-center h-10 px-8 opacity-40 hover:opacity-70 transition-opacity duration-300 shrink-0" title={name}>
-      <span className="font-['Geologica'] text-[18px] font-light tracking-[-0.02em] text-[#1a1a17] whitespace-nowrap">
-        {name}
-      </span>
+    <div 
+      className="flex items-center justify-center h-12 px-10 opacity-60 hover:opacity-100 grayscale hover:grayscale-0 transition-all duration-300 shrink-0" 
+      title={name}
+    >
+      {/* 
+        The magic happens here: 
+        h-full: strictly follows the container's 3rem (48px) height.
+        w-auto: keeps the aspect ratio intact.
+        object-contain: prevents clipping or stretching.
+        max-w-[160px]: ensures very wide logos don't take up too much horizontal space.
+      */}
+      <img
+        src={src}
+        alt={`${name} logo`}
+        className="h-full w-auto max-w-[160px] object-contain"
+        loading="lazy"
+      />
     </div>
   );
 }
@@ -53,23 +70,25 @@ export default function Partners() {
         <div className="pointer-events-none absolute left-0 top-0 bottom-0 w-24 z-10 bg-gradient-to-r from-[#f4f3ea] to-transparent" />
         <div className="pointer-events-none absolute right-0 top-0 bottom-0 w-24 z-10 bg-gradient-to-l from-[#f4f3ea] to-transparent" />
 
-        <div className="flex overflow-hidden border-y border-[#ddddd2] py-6">
+        <div className="flex overflow-hidden border-y border-[#ddddd2] py-8">
           <motion.div
             className="flex items-center gap-0"
             animate={{ x: ["0%", "-50%"] }}
-            transition={{ duration: 22, ease: "linear", repeat: Infinity }}
+            transition={{ duration: 25, ease: "linear", repeat: Infinity }}
             style={{ width: "max-content" }}
           >
-            {partners.map((p) => (
-              <div key={`a-${p.abbr}`} className="flex items-center">
-                <LogoPlaceholder name={p.name} abbr={p.abbr} />
-                <div className="w-px h-5 bg-[#ddddd2] shrink-0" />
+            {/* First Set */}
+            {partners.map((p, i) => (
+              <div key={`a-${i}`} className="flex items-center">
+                <LogoImage name={p.name} src={p.src} />
+                <div className="w-px h-6 bg-[#ddddd2] shrink-0" />
               </div>
             ))}
-            {partners.map((p) => (
-              <div key={`b-${p.abbr}`} className="flex items-center">
-                <LogoPlaceholder name={p.name} abbr={p.abbr} />
-                <div className="w-px h-5 bg-[#ddddd2] shrink-0" />
+            {/* Duplicate Set for smooth infinite scroll */}
+            {partners.map((p, i) => (
+              <div key={`b-${i}`} className="flex items-center">
+                <LogoImage name={p.name} src={p.src} />
+                <div className="w-px h-6 bg-[#ddddd2] shrink-0" />
               </div>
             ))}
           </motion.div>
