@@ -100,7 +100,9 @@
     "items": [
       { "title": "Garbage Pickup",   "description": "Scheduled and on-demand waste collection for homes, businesses, and municipalities. Reliable, punctual, and priced fairly." },
       { "title": "Dumpster Rental",  "description": "Short and long-term container rental for construction sites, renovations, and large-scale cleanouts across the region." },
-      { "title": "House Demolition", "description": "Safe, compliant demolition and debris removal handled by an experienced local crew with full site cleanup." }
+      { "title": "House Demolition", "description": "Safe, compliant demolition and debris removal handled by an experienced local crew with full site cleanup." },
+      { "title": "Septic Tank Cleaning", "description": "Professional pumping and cleaning for septic tanks and cesspools, keeping rural homes and properties safe, odor-free, and compliant." },
+      { "title": "Sewer & Drainage Cleaning", "description": "High-pressure jetting and blockage clearing for household and municipal drains, restoring proper flow fast." }
     ]
   },
   "projects": {
@@ -170,6 +172,36 @@
       { "title": "Permits & Documentation",       "description": "We assist with securing the necessary permits and ensure all demolition work complies with local regulations in North Macedonia." },
       { "title": "Debris Removal & Site Cleanup", "description": "Once demolition is complete, we remove all debris and leave the site clean and cleared — ready for your next construction phase." },
       { "title": "Safe & Insured Operation",      "description": "All demolition is carried out with full insurance coverage, proper safety equipment, and strict protocols to protect your property and our crew." }
+    ]
+  },
+  "septic_tank_cleaning": {
+    "tag": "Septic Tank Cleaning",
+    "title": "Septic Systems That Work Quietly In The Background.",
+    "subtitle": "Professional emptying and cleaning for septic tanks and cesspools across North Macedonia, Kosovo, and Albania — protecting your home, your water, and your health.",
+    "blurb": "A large share of homes across the region still rely on septic tanks rather than a public sewage connection, especially outside the bigger cities. When a tank isn't emptied on schedule, it backs up, smells, and can leak into the soil and groundwater around your property. We handle the pumping, cleaning, and disposal properly and on schedule, so your system stays out of sight and out of mind.",
+    "features_heading": "What's included in every septic service",
+    "cta_heading": "Time for a septic tank pump-out?",
+    "cta_body": "Whether it's a routine emptying, a first-time inspection, or an emergency backup, our crew responds quickly with the right equipment for tanks of any size.",
+    "features": [
+      { "title": "Full Tank Pumping & Emptying", "description": "We remove sludge and wastewater completely using vacuum tankers, not just a partial pump-out, so the tank is properly emptied and ready to work again." },
+      { "title": "Leak & Damage Inspection",     "description": "Every visit includes a check for cracks, blockages, or signs the tank is undersized for the household — small problems caught early save costly repairs later." },
+      { "title": "Odor & Overflow Prevention",   "description": "Regular cleaning stops the buildup that causes bad smells indoors, slow drains, and overflow into your yard or nearby wells." },
+      { "title": "Compliant Waste Disposal",     "description": "Collected waste is transported and disposed of at approved treatment sites, in line with local environmental regulations, not dumped illegally." }
+    ]
+  },
+  "sewer_drainage_cleaning": {
+    "tag": "Sewer & Drainage Cleaning",
+    "title": "Clear Pipes, No Backups, No Surprises.",
+    "subtitle": "High-pressure drain jetting and sewer line clearing for homes, apartment buildings, and businesses — fast response when a blockage won't wait.",
+    "blurb": "Ageing pipes, tree roots, grease, and years of buildup are common causes of blocked drains and sewer lines across the region's older housing stock and town centers. Instead of masking the problem, we clear the line completely using high-pressure water jetting and camera inspection, so water flows the way it should and the same blockage doesn't return next month.",
+    "features_heading": "What's included in every callout",
+    "cta_heading": "Dealing with a blocked drain or slow sewer line?",
+    "cta_body": "From a single clogged kitchen drain to a full building's sewer main, we bring the right equipment to diagnose the blockage and clear it the same day.",
+    "features": [
+      { "title": "High-Pressure Water Jetting", "description": "We blast away grease, sludge, and debris from the inside of the pipe, clearing the full diameter rather than just punching a hole through the clog." },
+      { "title": "CCTV Pipe Inspection",        "description": "A camera run through the line shows us exactly where the blockage or damage is, so we fix the real problem instead of guessing." },
+      { "title": "Emergency Callouts",          "description": "Sewage backups don't wait for business hours. We prioritize urgent blockages and burst lines to limit damage to your property." },
+      { "title": "Residential & Municipal Lines", "description": "From household drains to shared sewer mains for apartment blocks and small municipalities, our equipment scales to the size of the line." }
     ]
   }
 }

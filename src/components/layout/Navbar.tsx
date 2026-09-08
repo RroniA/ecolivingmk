@@ -6,9 +6,11 @@ import { usePathname } from "next/navigation";
 import LanguageSwitcher from "./LanguageSwitcher";
 
 const serviceLinks = [
-  { label: "Garbage Pickup",   href: "/garbage-pickup"   },
-  { label: "Dumpster Rental",  href: "/dumpster-rental"  },
-  { label: "House Demolition", href: "/house-demolition" },
+  { label: "Garbage Pickup",          href: "/garbage-pickup"          },
+  { label: "Dumpster Rental",         href: "/dumpster-rental"         },
+  { label: "House Demolition",        href: "/house-demolition"        },
+  { label: "Septic Tank Cleaning",    href: "/septic-tank-cleaning"    },
+  { label: "Sewer & Drainage Cleaning", href: "/sewer-drainage-cleaning" },
 ];
 
 export default function Navbar() {
@@ -71,7 +73,7 @@ export default function Navbar() {
                 className="flex items-center gap-1 px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200 hover:bg-black/[0.06]"
                 style={{
                   fontFamily: "var(--font-body)",
-                  color: pathname.includes("garbage") || pathname.includes("dumpster") || pathname.includes("demolition") ? "#1a1a17" : "#7a7a6e",
+                  color: pathname.includes("garbage") || pathname.includes("dumpster") || pathname.includes("demolition") || pathname.includes("septic") || pathname.includes("sewer") ? "#1a1a17" : "#7a7a6e",
                 }}
               >
                 Services

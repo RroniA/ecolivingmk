@@ -100,7 +100,9 @@
     "items": [
       { "title": "Grumbullim Mbeturinash", "description": "Grumbullim i planifikuar dhe me kërkesë i mbeturinave për shtëpi, biznese dhe bashki. I besueshëm, i saktë dhe me çmim të drejtë." },
       { "title": "Qira Kontejnerësh",      "description": "Qira afatshkurtër dhe afatgjatë kontejnerësh për kantiere ndërtimi, rinovime dhe pastrimi të mëdha në të gjithë rajonin." },
-      { "title": "Demolim Shtëpish",       "description": "Demolim i sigurt dhe i pajtueshëm si dhe heqje mbeturinash nga një ekip vendor me përvojë me pastrim të plotë të kantierit." }
+      { "title": "Demolim Shtëpish",       "description": "Demolim i sigurt dhe i pajtueshëm si dhe heqje mbeturinash nga një ekip vendor me përvojë me pastrim të plotë të kantierit." },
+      { "title": "Pastrim i Gropave Septike", "description": "Zbrazje dhe pastrim profesional i gropave septike për shtëpi dhe prona rurale — të sigurt, pa erë të keqe dhe në përputhje me rregulloret." },
+      { "title": "Pastrim Kanalizimesh dhe Kullimesh", "description": "Pastrim me presion të lartë i tubave të zënë të kanalizimit dhe kullimeve për familje dhe bashki të vogla, duke rikthyer shpejt rrjedhën normale." }
     ]
   },
   "projects": {
@@ -170,6 +172,36 @@
       { "title": "Lejedërgime dhe Dokumentacion",       "description": "Ne ndihmojmë në sigurimin e lejedërgimeve të nevojshme dhe sigurojmë që të gjitha punimet e demolimit të jenë në përputhje me rregulloret lokale në Maqedoninë e Veriut." },
       { "title": "Heqja e Mbeturinave dhe Pastrimi",   "description": "Pasi demolimi të jetë i plotë, ne heqim të gjitha mbeturinat dhe e lëmë kantierit të pastër dhe të liruar — gati për fazën tuaj të ardhshme të ndërtimit." },
       { "title": "Operacion i Sigurt dhe i Siguruar",  "description": "I gjithë demolimi kryhet me mbulim të plotë sigurimesh, pajisje të duhura sigurie dhe protokolle strikte për të mbrojtur pronën tuaj dhe ekipin tonë." }
+    ]
+  },
+  "septic_tank_cleaning": {
+    "tag": "Pastrim i Gropave Septike",
+    "title": "Sisteme Septike Që Punojnë Në Heshtje.",
+    "subtitle": "Zbrazje dhe pastrim profesional i gropave septike në të gjithë Maqedoninë e Veriut, Kosovën dhe Shqipërinë — duke mbrojtur shtëpinë, ujin dhe shëndetin tuaj.",
+    "blurb": "Një pjesë e madhe e shtëpive në rajon ende mbështeten te gropat septike në vend të lidhjes me kanalizimin publik, sidomos jashtë qyteteve më të mëdha. Kur gropa nuk zbrazet me kohë, ajo mbushet, lëshon erë të keqe dhe mund të rrjedhë në tokë dhe në ujërat nëntokësore rreth pronës suaj. Ne kujdesemi për zbrazjen, pastrimin dhe hedhjen e duhur të mbetjeve, në kohën e duhur, kështu që sistemi juaj mbetet larg syve dhe larg shqetësimeve.",
+    "features_heading": "Çfarë përfshihet në çdo shërbim septik",
+    "cta_heading": "Është koha për zbrazjen e gropës septike?",
+    "cta_body": "Qoftë një zbrazje e rregullt, një inspektim i parë, apo një mbushje urgjente, ekipi ynë përgjigjet shpejt me pajisjet e duhura për gropa të çdo madhësie.",
+    "features": [
+      { "title": "Zbrazje e Plotë e Gropës",              "description": "Heqim plotësisht llumin dhe ujërat e zeza me cisterna me vakum — jo vetëm një zbrazje të pjesshme — që gropa të jetë vërtet e zbrazur dhe gati të funksionojë sërish." },
+      { "title": "Inspektim për Rrjedhje dhe Dëmtime",   "description": "Në çdo vizitë kontrollojmë për çarje, bllokime, ose shenja se gropa është shumë e vogël për familjen — problemet e vogla të zbuluara herët kursejnë riparime të shtrenjta më vonë." },
+      { "title": "Parandalim Ere dhe Vërshimi",           "description": "Pastrimi i rregullt ndalon grumbullimin që shkakton erë të keqe brenda shtëpisë, rrjedhje të ngadaltë dhe vërshim në oborr apo në puse afër." },
+      { "title": "Hedhje e Mbetjeve Sipas Rregullave",    "description": "Mbetjet e mbledhura transportohen dhe hidhen në vende të miratuara trajtimi, në përputhje me rregulloret mjedisore vendore — jo të hedhura në mënyrë të paligjshme." }
+    ]
+  },
+  "sewer_drainage_cleaning": {
+    "tag": "Pastrim Kanalizimesh dhe Kullimesh",
+    "title": "Tuba të Pastër, Pa Bllokime, Pa Surpriza.",
+    "subtitle": "Pastrim me presion të lartë i kanalizimeve dhe kullimeve për shtëpi, pallate dhe biznese — përgjigje e shpejtë kur bllokimi nuk mund të presë.",
+    "blurb": "Tubat e vjetruar, rrënjët e pemëve, yndyra dhe vite grumbullimi janë shkaqet më të zakonshme të kanalizimeve dhe kullimeve të bllokuara në ndërtesat e vjetra dhe qendrat e qyteteve në rajon. Në vend që ta maskojmë problemin, e pastrojmë plotësisht linjën me ujë me presion të lartë dhe inspektim me kamerë, që uji të rrjedhë siç duhet — dhe i njëjti bllokim të mos kthehet muajin tjetër.",
+    "features_heading": "Çfarë përfshihet në çdo thirrje",
+    "cta_heading": "Keni një kullim të bllokuar apo linjë kanalizimi të ngadaltë?",
+    "cta_body": "Nga një lavaman i vetëm i bllokuar në kuzhinë deri te kanalizimi kryesor i një ndërtese të tërë, sjellim pajisjet e duhura për të diagnostikuar bllokimin dhe për ta pastruar të njëjtën ditë.",
+    "features": [
+      { "title": "Pastrim me Ujë me Presion të Lartë", "description": "Heqim yndyrën, llumin dhe mbeturinat nga brendësia e tubit, duke pastruar të gjithë diametrin, jo vetëm duke hapur një vrimë përmes bllokimit." },
+      { "title": "Inspektim me Kamerë CCTV",           "description": "Një kamerë e kaluar përgjatë linjës na tregon saktësisht ku ndodhet bllokimi apo dëmtimi, që ta rregullojmë problemin real në vend që të hamendësojmë." },
+      { "title": "Thirrje Urgjente",                   "description": "Vërshimet e kanalizimit nuk presin orarin e punës. I trajtojmë me përparësi bllokimet urgjente dhe tubat e plasaritur për të kufizuar dëmin në pronën tuaj." },
+      { "title": "Linja Banesore dhe Komunale",        "description": "Nga kullimet e shtëpisë deri te kanalizimet kryesore të përbashkëta për pallate dhe bashki të vogla, pajisjet tona përshtaten me madhësinë e linjës." }
     ]
   }
 }

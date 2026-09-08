@@ -7,9 +7,11 @@ import SectionTag from "@/components/ui/SectionTag";
 import { useI18n } from "@/lib/i18n";
 
 const servicesMeta = [
-  { index: "01", href: "/garbage-pickup",   color: "#1a1a17", accent: "#b6e400", imageSrc: "/images/garbage-pickup.jpg"   },
-  { index: "02", href: "/dumpster-rental",  color: "#232320", accent: "#b6e400", imageSrc: "/images/dumpster-rental.jpg"  },
-  { index: "03", href: "/house-demolition", color: "#2a2a25", accent: "#b6e400", imageSrc: "/images/house-demolition.jpg" },
+  { index: "01", href: "/garbage-pickup",           color: "#1a1a17", accent: "#b6e400", imageSrc: "/images/garbage-pickup.jpg"   },
+  { index: "02", href: "/dumpster-rental",          color: "#232320", accent: "#b6e400", imageSrc: "/images/dumpster-rental.jpg"  },
+  { index: "03", href: "/house-demolition",         color: "#2a2a25", accent: "#b6e400", imageSrc: "/images/house-demolition.jpg" },
+  { index: "04", href: "/septic-tank-cleaning",     color: "#302f29", accent: "#b6e400", imageSrc: "/images/septic-tank-cleaning.jpg" },
+  { index: "05", href: "/sewer-drainage-cleaning",  color: "#373630", accent: "#b6e400", imageSrc: "/images/sewer-drainage-cleaning.jpg" },
 ];
 
 interface CardProps {

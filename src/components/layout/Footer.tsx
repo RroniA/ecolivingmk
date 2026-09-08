@@ -87,6 +87,8 @@ export default function Footer() {
                 <li><Link href="/garbage-pickup" className="text-sm" style={{ color: "rgba(244,243,234,0.6)" }}>Garbage Pickup</Link></li>
                 <li><Link href="/dumpster-rental" className="text-sm" style={{ color: "rgba(244,243,234,0.6)" }}>Dumpster Rental</Link></li>
                 <li><Link href="/house-demolition" className="text-sm" style={{ color: "rgba(244,243,234,0.6)" }}>House Demolition</Link></li>
+                <li><Link href="/septic-tank-cleaning" className="text-sm" style={{ color: "rgba(244,243,234,0.6)" }}>Septic Tank Cleaning</Link></li>
+                <li><Link href="/sewer-drainage-cleaning" className="text-sm" style={{ color: "rgba(244,243,234,0.6)" }}>Sewer & Drainage Cleaning</Link></li>
               </ul>
             </div>
 
