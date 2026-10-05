@@ -19,15 +19,39 @@
     "heading": "Një kompani lider në menaxhimin e mbeturinave e përkushtuar ndaj zgjidhjeve të qëndrueshme për një botë më të gjelbër.",
     "cta": "Mëso Më Shumë",
     "pillars": [
-      { "index": "01", "title": "Vizioni Ynë",  "body": "Një Maqedoni e Veriut ku mbeturinat menaxhohen me përgjegjësi në çdo nivel — nga familjet deri te objektet industriale — duke krijuar hapësira publike më të pastra për brezat që vijnë." },
-      { "index": "02", "title": "Misioni Ynë",  "body": "Të ofrojmë shërbime cilësore dhe të përballueshme të grumbullimit të mbeturinave nga të cilat komunitetet mund të varen. Marrje në kohë, komunikim i qartë dhe angazhim i vërtetë ndaj mjedisit." },
-      { "index": "03", "title": "Puna Jonë",    "body": "Nga qiratë e kontejnerëve dhe grumbullimi i mbeturinave deri te heqja e plotë e mbeturinave të demolimit, ne trajtojmë çdo punë me të njëjtin standard — qoftë një familje e vetme apo një kantier i madh ndërtimi." }
+      {
+        "index": "01",
+        "title": "Vizioni Ynë",
+        "body": "Një Maqedoni e Veriut ku mbeturinat menaxhohen me përgjegjësi në çdo nivel — nga familjet deri te objektet industriale — duke krijuar hapësira publike më të pastra për brezat që vijnë."
+      },
+      {
+        "index": "02",
+        "title": "Misioni Ynë",
+        "body": "Të ofrojmë shërbime cilësore dhe të përballueshme të grumbullimit të mbeturinave nga të cilat komunitetet mund të varen. Marrje në kohë, komunikim i qartë dhe angazhim i vërtetë ndaj mjedisit."
+      },
+      {
+        "index": "03",
+        "title": "Puna Jonë",
+        "body": "Nga qiratë e kontejnerëve dhe grumbullimi i mbeturinave deri te heqja e plotë e mbeturinave të demolimit, ne trajtojmë çdo punë me të njëjtin standard — qoftë një familje e vetme apo një kantier i madh ndërtimi."
+      }
     ],
     "stats": [
-      { "value": "36,000+", "label": "Klientë të Kënaqur" },
-      { "value": "120+",    "label": "Kompani Partnere" },
-      { "value": "10+",     "label": "Projekte të Përfunduara" },
-      { "value": "3",       "label": "Rajone të Mbuluara" }
+      {
+        "value": "36,000+",
+        "label": "Klientë të Kënaqur"
+      },
+      {
+        "value": "120+",
+        "label": "Kompani Partnere"
+      },
+      {
+        "value": "10+",
+        "label": "Projekte të Përfunduara"
+      },
+      {
+        "value": "3",
+        "label": "Rajone të Mbuluara"
+      }
     ]
   },
   "about_page": {
@@ -36,25 +60,82 @@
     "subtitle": "Eco Living është një kompani menaxhimi mbeturinash që u shërben bashkive, bizneseve dhe familjeve në të gjithë rajonin e Maqedonisë Perëndimore — duke ofruar shërbime koleksioni të besueshme, të përballueshme dhe me përgjegjësi mjedisore.",
     "pull_quote": "Ne besojmë se menaxhimi i duhur i mbeturinave nuk është luks — është themeli i komuniteteve të shëndetshme. Që nga themelimi ynë, kemi punuar krahas qeverive lokale, kompanive private dhe banorëve për të ndërtuar sisteme që vërtet funksionojnë: marrje në kohë, komunikim i qartë dhe angazhim i vërtetë për të reduktuar ndikimin mjedisor.",
     "stats": [
-      { "value": "36,000+", "label": "Klientë të kënaqur" },
-      { "value": "120+",    "label": "Kompani partnere" },
-      { "value": "10+",     "label": "Projekte të përfunduara" },
-      { "value": "3",       "label": "Rajone të mbuluara" }
+      {
+        "value": "36,000+",
+        "label": "Klientë të kënaqur"
+      },
+      {
+        "value": "120+",
+        "label": "Kompani partnere"
+      },
+      {
+        "value": "10+",
+        "label": "Projekte të përfunduara"
+      },
+      {
+        "value": "3",
+        "label": "Rajone të mbuluara"
+      }
     ],
     "values_label": "Çfarë na shtyn",
     "values_heading": "Vizioni, misioni dhe etika jonë e punës.",
     "values": [
-      { "index": "01 — Vizioni",   "title": "Një e ardhme më e gjelbër për çdo komunitet.",   "body": "Ne imagjinojmë një Maqedoni të Veriut ku mbeturinat menaxhohen me përgjegjësi në çdo nivel — duke krijuar hapësira publike më të pastra dhe një mjedis më të shëndetshëm për brezat që vijnë." },
-      { "index": "02 — Misioni",   "title": "Shërbim i besueshëm, i ofruar me kujdes.",       "body": "Misioni ynë është të ofrojmë shërbime cilësore dhe të përballueshme të menaxhimit të mbeturinave nga të cilat komunitetet mund të varen — duke u shfaqur në kohë, duke trajtuar çdo klient me respekt dhe duke përmirësuar vazhdimisht mënyrën e operimit." },
-      { "index": "03 — Puna Jonë", "title": "Praktik, lokal dhe me llogaridhënie.",            "body": "Nga qiratë e kontejnerëve dhe grumbullimi i mbeturinave deri te heqja e plotë e mbeturinave të demolimit, ne trajtojmë çdo punë me të njëjtin standard profesionalizmi — qoftë një familje e vetme apo një kantier i madh ndërtimi në të gjithë rajonin." }
+      {
+        "index": "01 — Vizioni",
+        "title": "Një e ardhme më e gjelbër për çdo komunitet.",
+        "body": "Ne imagjinojmë një Maqedoni të Veriut ku mbeturinat menaxhohen me përgjegjësi në çdo nivel — duke krijuar hapësira publike më të pastra dhe një mjedis më të shëndetshëm për brezat që vijnë."
+      },
+      {
+        "index": "02 — Misioni",
+        "title": "Shërbim i besueshëm, i ofruar me kujdes.",
+        "body": "Misioni ynë është të ofrojmë shërbime cilësore dhe të përballueshme të menaxhimit të mbeturinave nga të cilat komunitetet mund të varen — duke u shfaqur në kohë, duke trajtuar çdo klient me respekt dhe duke përmirësuar vazhdimisht mënyrën e operimit."
+      },
+      {
+        "index": "03 — Puna Jonë",
+        "title": "Praktik, lokal dhe me llogaridhënie.",
+        "body": "Nga qiratë e kontejnerëve dhe grumbullimi i mbeturinave deri te heqja e plotë e mbeturinave të demolimit, ne trajtojmë çdo punë me të njëjtin standard profesionalizmi — qoftë një familje e vetme apo një kantier i madh ndërtimi në të gjithë rajonin."
+      }
     ],
     "services_label": "Çfarë ofrojmë",
-    "services_heading": "Tre shërbime kryesore, një ekip i besueshëm.",
+    "services_heading": "Gjashtë shërbime për shtëpi dhe biznese.",
     "services_cta": "Kërko një Ofertë",
     "services": [
-      { "href": "/garbage-pickup",   "title": "Grumbullim Mbeturinash", "body": "Grumbullim i planifikuar dhe me kërkesë i mbeturinave për shtëpi, biznese dhe bashki në të gjithë rajonin.", "link": "Shiko Detajet →" },
-      { "href": "/dumpster-rental",  "title": "Qira Kontejnerësh",      "body": "Qira afatshkurtër dhe afatgjatë kontejnerësh për kantiere ndërtimi, rinovime dhe pastrimi të mëdha.", "link": "Shiko Detajet →" },
-      { "href": "/house-demolition", "title": "Demolim Shtëpish",       "body": "Demolim i sigurt dhe i pajtueshëm dhe heqje mbeturinash nga një ekip vendor me përvojë.", "link": "Shiko Detajet →" }
+      {
+        "href": "/garbage-pickup",
+        "title": "Grumbullim mbetjesh",
+        "body": "Grumbullim i rregullt për familje, ndërtesa banimi dhe biznese në zonën ku ofrojmë shërbim.",
+        "link": "Shiko Detajet →"
+      },
+      {
+        "href": "/dumpster-rental",
+        "title": "Kontejnerë mbetjesh me qira",
+        "body": "Kontejnerë me qira për rinovime, ndërtime dhe zbrazje pronash, me dërgimin dhe marrjen të organizuara sipas kantierit.",
+        "link": "Shiko Detajet →"
+      },
+      {
+        "href": "/house-demolition",
+        "title": "Prishje ndërtesash",
+        "body": "Prishje dhe largim mbetjesh për projekte banimi, me punimet të dakorduara pas shqyrtimit të pronës dhe hyrjes.",
+        "link": "Shiko Detajet →"
+      },
+      {
+        "href": "/septic-tank-cleaning",
+        "title": "Zbrazje dhe pastrim gropash septike",
+        "body": "Zbrazje dhe pastrim gropash septike për shtëpi dhe ambiente tregtare në zonën ku ofrojmë shërbim.",
+        "link": "Shiko Detajet →"
+      },
+      {
+        "href": "/sewer-drainage-cleaning",
+        "title": "Pastrim kanalizimesh dhe shkarkimesh",
+        "body": "Zhbllokim kanalizimesh dhe tubash shkarkimi për shtëpi, ndërtesa banimi dhe ambiente tregtare.",
+        "link": "Shiko Detajet →"
+      },
+      {
+        "href": "/house-cleaning",
+        "title": "Pastrim shtëpish",
+        "body": "Pastrim i njëhershëm ose i rregullt i shtëpisë, me dhomat, përparësitë dhe vizitën të dakorduara sipas nevojave tuaja.",
+        "link": "Shiko Detajet →"
+      }
     ],
     "cta_label": "Gati për të filluar?",
     "cta_heading": "Le të ndërtojmë së bashku një zgjidhje më të pastër.",
@@ -81,7 +162,15 @@
     "field_service_placeholder": "Zgjidhni një shërbim…",
     "field_message": "Mesazhi",
     "field_message_placeholder": "Përshkruani nevojat tuaja…",
-    "service_options": ["Grumbullim Mbeturinash", "Qira Kontejnerësh", "Demolim Shtëpish", "Tjetër"],
+    "service_options": [
+      "Grumbullim mbetjesh",
+      "Kontejnerë mbetjesh me qira",
+      "Prishje ndërtesash",
+      "Zbrazje dhe pastrim gropash septike",
+      "Pastrim kanalizimesh dhe shkarkimesh",
+      "Pastrim shtëpish",
+      "Tjetër"
+    ],
     "send": "Dërgo Mesazhin",
     "send_note": "Do t'ju kthejmë përgjigje brenda 24–48 orëve.",
     "map_label": "Vendndodhja jonë",
@@ -94,33 +183,70 @@
   "services": {
     "tag": "Çfarë Ofrojmë",
     "heading": "Zgjidhjet Tona Më të Mira",
-    "subtitle": "Tre shërbime kryesore të ndërtuara rreth besueshmërisë, transparencës dhe përgjegjësisë mjedisore.",
+    "subtitle": "Grumbullim mbetjesh, kontejnerë me qira, prishje ndërtesash, shërbime septike, pastrim kanalizimesh dhe shtëpish nga një ekip lokal.",
     "view_details": "Shiko Detajet",
     "label": "Shërbime",
     "items": [
-      { "title": "Grumbullim Mbeturinash", "description": "Grumbullim i planifikuar dhe me kërkesë i mbeturinave për shtëpi, biznese dhe bashki. I besueshëm, i saktë dhe me çmim të drejtë." },
-      { "title": "Qira Kontejnerësh",      "description": "Qira afatshkurtër dhe afatgjatë kontejnerësh për kantiere ndërtimi, rinovime dhe pastrimi të mëdha në të gjithë rajonin." },
-      { "title": "Demolim Shtëpish",       "description": "Demolim i sigurt dhe i pajtueshëm si dhe heqje mbeturinash nga një ekip vendor me përvojë me pastrim të plotë të kantierit." },
-      { "title": "Pastrim i Gropave Septike", "description": "Zbrazje dhe pastrim profesional i gropave septike për shtëpi dhe prona rurale — të sigurt, pa erë të keqe dhe në përputhje me rregulloret." },
-      { "title": "Pastrim Kanalizimesh dhe Kullimesh", "description": "Pastrim me presion të lartë i tubave të zënë të kanalizimit dhe kullimeve për familje dhe bashki të vogla, duke rikthyer shpejt rrjedhën normale." }
+      {
+        "title": "Grumbullim mbetjesh",
+        "description": "Grumbullim i rregullt për familje, ndërtesa banimi dhe biznese në zonën ku ofrojmë shërbim."
+      },
+      {
+        "title": "Kontejnerë mbetjesh me qira",
+        "description": "Kontejnerë me qira për rinovime, ndërtime dhe zbrazje pronash, me dërgimin dhe marrjen të organizuara sipas kantierit."
+      },
+      {
+        "title": "Prishje ndërtesash",
+        "description": "Prishje dhe largim mbetjesh për projekte banimi, me punimet të dakorduara pas shqyrtimit të pronës dhe hyrjes."
+      },
+      {
+        "title": "Zbrazje dhe pastrim gropash septike",
+        "description": "Zbrazje dhe pastrim gropash septike për shtëpi dhe ambiente tregtare në zonën ku ofrojmë shërbim."
+      },
+      {
+        "title": "Pastrim kanalizimesh dhe shkarkimesh",
+        "description": "Zhbllokim kanalizimesh dhe tubash shkarkimi për shtëpi, ndërtesa banimi dhe ambiente tregtare."
+      },
+      {
+        "title": "Pastrim shtëpish",
+        "description": "Pastrim i njëhershëm ose i rregullt i shtëpisë, me dhomat, përparësitë dhe vizitën të dakorduara sipas nevojave tuaja."
+      }
     ]
   },
   "projects": {
     "tag": "Puna Jonë",
     "heading": "Ekspozitë e Projekteve të Përfunduara",
     "items": [
-      { "title": "Pastrimi Komunal i Çegranës",            "location": "Çegranë, Gostivar" },
-      { "title": "Programi i Kontejnerëve të Bërvenicës", "location": "Bërvenicë" },
-      { "title": "Grumbullimi i Mbeturinave në Xhelino",  "location": "Xhelino" }
+      {
+        "title": "Pastrimi Komunal i Çegranës",
+        "location": "Çegranë, Gostivar"
+      },
+      {
+        "title": "Programi i Kontejnerëve të Bërvenicës",
+        "location": "Bërvenicë"
+      },
+      {
+        "title": "Grumbullimi i Mbeturinave në Xhelino",
+        "location": "Xhelino"
+      }
     ]
   },
   "map": {
     "tag": "Vështrim i Projekteve",
     "heading": "Kemi Përfunduar Menaxhimin e Mbeturinave në 3 Rajone",
     "stats": [
-      { "value": "10+",   "label": "Projekte të Përfunduara" },
-      { "value": "3.6K+", "label": "Klientë të Kënaqur" },
-      { "value": "3",     "label": "Rajone të Mbuluara" }
+      {
+        "value": "10+",
+        "label": "Projekte të Përfunduara"
+      },
+      {
+        "value": "3.6K+",
+        "label": "Klientë të Kënaqur"
+      },
+      {
+        "value": "3",
+        "label": "Rajone të Mbuluara"
+      }
     ],
     "hq": "Selia Qendrore"
   },
@@ -130,78 +256,264 @@
     "subtitle": "Punojmë me bashki, firma ndërtimi dhe kompani private në të gjithë rajonin."
   },
   "garbage_pickup": {
-    "tag": "Grumbullim Mbeturinash",
-    "title": "Grumbullim i Besueshëm Mbeturinash, Çdo Herë.",
-    "subtitle": "Ofrojmë grumbullim të planifikuar mbeturinash për shtëpi dhe biznese në të gjithë Maqedoninë e Veriut — i qëndrueshëm, i përballueshëm dhe me përgjegjësi mjedisore.",
-    "blurb": "Grumbullimi i mbeturinave nuk duhet të jetë diçka për të cilën duhet të mendoni. Ekipi ynë siguron që mbeturinat tuaja të merren në kohë, çdo herë, të renditura siç duhet dhe të dërguara në objektet e certifikuara të përpunimit — kështu që ju mund të përqendroheni në atë që ka rëndësi.",
-    "features_heading": "Çfarë përfshihet në çdo marrje",
-    "cta_heading": "Gati për të vendosur një orar grumbullimi?",
-    "cta_body": "Qoftë një familje që kërkon marrje të rregullt ose një biznes që menaxhon volum të madh, ne do të hartojmë një plan që funksionon për ju.",
+    "tag": "Grumbullim mbetjesh",
+    "title": "Grumbullim mbetjesh sipas nevojave të pronës suaj.",
+    "subtitle": "Grumbullim i rregullt për familje, ndërtesa banimi dhe biznese në zonën ku ofrojmë shërbim.",
+    "blurb": "Një plan i përshtatshëm fillon me mbetjet që krijohen në pronën tuaj. Para shërbimit përcaktojmë llojet e mbetjeve, pikën e grumbullimit, hyrjen e automjetit dhe shpeshtësinë e marrjes. Mbetjet e zakonshme shtëpiake dhe tregtare, sendet e mëdha dhe mbetjet e ndërtimit kërkojnë organizim të ndryshëm.",
+    "features_heading": "Një plan grumbullimi sipas nevojave tuaja",
+    "cta_heading": "Organizoni grumbullimin e rregullt.",
+    "cta_body": "Na dërgoni vendndodhjen, llojin e pronës dhe sasinë e përafërt të mbetjeve. Do të konfirmojmë mbulimin dhe do të diskutojmë orarin e përshtatshëm.",
     "features": [
-      { "title": "Grumbullim i Planifikuar Javor", "description": "Marrje e besueshme, në kohë, sipas një orari që i përshtatet familjes ose biznesit tuaj. Pa ditë të humbura, pa vonesa — ne tregohemi kur themi." },
-      { "title": "Mbeturina të Renditura dhe të Ndara", "description": "Grumbullojmë mbeturinat e përgjithshme, të riciklueshmet dhe mbeturinat organike veçmas — duke mbështetur përpunimin e duhur në objekte të certifikuara në të gjithë rajonin." },
-      { "title": "Orare Fleksibël Marrjeje", "description": "Disponohen dritare në mëngjes ose pasdite. Ne punojmë rreth orarit tuaj kështu që grumbullimi i mbeturinave nuk e pengon kurrë ditën tuaj." },
-      { "title": "Banesore dhe Komerciale", "description": "Nga familjet e vetme deri te komplekset e mëdha të zyrave, flota dhe kapaciteti ynë shkallëzohen për të përmbushur çdo vëllim grumbullimi mbeturinash." }
-    ]
+      {
+        "title": "Orar i dakorduar",
+        "description": "Përcaktojmë shpeshtësinë e grumbullimit sipas nevojave të familjes ose biznesit, me pikën e marrjes dhe hyrjen të dakorduara paraprakisht."
+      },
+      {
+        "title": "Lloje të qarta mbetjesh",
+        "description": "Na tregoni nëse keni mbetje shtëpiake të përziera apo materiale të ndara, që të përcaktojmë mënyrën e grumbullimit."
+      },
+      {
+        "title": "Shtëpi dhe biznese",
+        "description": "Planifikim për shtëpi, ndërtesa të përbashkëta, dyqane, zyra dhe ambiente të tjera tregtare."
+      },
+      {
+        "title": "Sasi të mëdha me marrëveshje",
+        "description": "Mobiliet, mbetjet e rinovimit dhe sasitë e pazakonta duhen diskutuar veçmas nga grumbullimi i zakonshëm."
+      }
+    ],
+    "preparation": {
+      "heading": "Para se të organizoni grumbullimin",
+      "items": [
+        "Dërgoni adresën dhe llojin e pronës.",
+        "Përshkruani mbetjet dhe sa shpesh grumbullohen.",
+        "Na tregoni ku mund të ndalojë automjeti."
+      ]
+    }
   },
   "dumpster_rental": {
-    "tag": "Qira Kontejnerësh",
-    "title": "Kontejneri i Duhur për Çdo Punë.",
-    "subtitle": "Qira afatshkurtër ose afatgjatë kontejnerësh për ndërtim, rinovim, ngjarje dhe pastrimi komerciale — i dorëzuar shpejt, i marrë sipas kërkesës.",
-    "blurb": "Projektet e mëdha gjenerojnë mbeturina të mëdha. Shërbimi ynë i qirasë së kontejnerëve ju jep hapësirën që ju nevojitet, saktësisht ku ju nevojitet. Ne trajtojmë dorëzimin, marrjen dhe asgjësimin e përgjegjshëm — kështu që kantieri juaj mbetet i pastër dhe projekti juaj mbetet sipas orarit.",
-    "features_heading": "Gjithçka e përfshirë në qiranë tuaj",
-    "cta_heading": "Keni nevojë për një kontejner të dorëzuar nesër?",
-    "cta_body": "Na tregoni madhësinë që ju nevojitet, ku ta vendosim dhe për sa kohë. Ne do të trajtojmë gjithçka tjetër dhe do ta kemi në kantier tuajin brenda 24 orëve.",
+    "tag": "Kontejnerë mbetjesh me qira",
+    "title": "Hapësirë për mbetjet e projektit tuaj.",
+    "subtitle": "Kontejnerë me qira për rinovime, ndërtime dhe zbrazje pronash, me dërgimin dhe marrjen të organizuara sipas kantierit.",
+    "blurb": "Zgjedhja e kontejnerit varet nga më shumë se vëllimi. Inertet e rënda, sendet e mëdha e të lehta, hapësira dhe hyrja e automjetit ndikojnë në zgjedhje. Na përshkruani projektin dhe do të konfirmojmë kontejnerin e disponueshëm, materialet e lejuara, kufijtë e ngarkesës, periudhën e qirasë dhe marrjen.",
+    "features_heading": "Kontejneri i përshtatshëm për punën",
+    "cta_heading": "Na tregoni për projektin tuaj.",
+    "cta_body": "Dërgoni vendndodhjen, materialet, sasinë e përafërt dhe datat e dëshiruara. Do të konfirmojmë madhësitë e disponueshme dhe hapësirën e nevojshme për dërgim.",
     "features": [
-      { "title": "Madhësi të Shumta Kontejnerësh", "description": "Nga kontejnerët kompaktë 6 m³ për rinovimet shtëpiake deri te njësitë industriale 30 m³ për kantiere ndërtimi — kemi madhësinë e duhur për çdo punë." },
-      { "title": "Dorëzim dhe Marrje e Shpejtë",   "description": "Kontejneri dorëzohet në vendndodhjen tuaj brenda 24 orëve nga rezervimi. Kur mbaroni, ne e marrim menjëherë — pa pritje, pa telashe." },
-      { "title": "Periudha Fleksibël Qiraje",       "description": "Merrni me qira sipas ditës, javës ose muajit. Zgjasni qiranë tuaj me një telefonatë të vetme — pa gjoba, pa dokumentacion." },
-      { "title": "Asgjësim i Përgjegjshëm",         "description": "Të gjitha mbeturinat e grumbulluara transportohen në objekte të certifikuara renditjeje dhe asgjësimi. Materialet e riciklueshme ndahen dhe përpunohen siç duhet." }
-    ]
+      {
+        "title": "Madhësia dhe ngarkesa",
+        "description": "Zgjidhni kontejnerin sipas vëllimit dhe peshës së mbetjeve. Konfirmoni përmasat dhe kufirin e ngarkesës para se të rezervoni hapësirën."
+      },
+      {
+        "title": "Dërgim dhe marrje",
+        "description": "Përcaktoni vendosjen dhe hyrjen e automjetit, duke përfshirë hapësirën e nevojshme për marrjen e kontejnerit të mbushur."
+      },
+      {
+        "title": "Periudhë qiraje e dakorduar",
+        "description": "Organizoni qiranë sipas punimeve. Na kontaktoni nëse ndryshojnë datat ose ju duhet një marrje tjetër."
+      },
+      {
+        "title": "Materialet e pranuara",
+        "description": "Përshkruani inertet, dheun, drurin ose sendet e mëdha gjatë rezervimit. Pyesni para se të shtoni lëngje, kimikate, asbest apo mbetje të veçanta."
+      }
+    ],
+    "preparation": {
+      "heading": "Para mbërritjes së kontejnerit",
+      "items": [
+        "Dërgoni përshkrim ose foto të materialeve.",
+        "Konfirmoni vendin e vendosjes dhe hyrjen e automjetit.",
+        "Diskutoni lejen e vendosjes nëse nevojitet hapësirë publike."
+      ]
+    }
   },
   "house_demolition": {
-    "tag": "Demolim Shtëpish",
-    "title": "Demolim i Sigurt dhe i Pastër nga Fillimi deri në Fund.",
-    "subtitle": "Demolim profesional strukturor për prona banesore dhe komerciale — me heqje të plotë mbeturinash, pastrim kantieri dhe asistencë lejedërgimi të përfshirë.",
-    "blurb": "Demolimi është më shumë se rrëzimi i mureve. Kërkon planifikim të kujdesshëm, pajisjet e duhura dhe një qasje të përgjegjshme ndaj asaj që ndodh me materialet pas. Ekipi ynë menaxhon të gjithë procesin — nga lejedërgimi deri te pastrimi final i kantierit — kështu që ju filloni projektin tuaj të ardhshëm në bazë solide.",
-    "features_heading": "Çfarë trajtojmë për ju",
-    "cta_heading": "Po planifikoni një projekt demolimi?",
-    "cta_body": "Na kontaktoni dhe ne do të vlerësojmë kantierit tuaj, do t'ju udhëzojmë nëpër proces dhe do të ofrojmë një ofertë të qartë. Pa surpriza, pa kosto të fshehura.",
+    "tag": "Prishje ndërtesash",
+    "title": "Planifikoni prishjen. Lironi kantierin.",
+    "subtitle": "Prishje dhe largim mbetjesh për projekte banimi, me punimet të dakorduara pas shqyrtimit të pronës dhe hyrjes.",
+    "blurb": "Çdo projekt prishjeje fillon me ndërtesën dhe mjedisin përreth. Diskutojmë çfarë duhet larguar, pronat fqinje, hyrjen në kantier dhe grumbullimin e mbetjeve. Lejet, shkëputja e lidhjeve të shërbimeve dhe materialet që kërkojnë trajtim të posaçëm duhen sqaruar para fillimit të punës.",
+    "features_heading": "Nga planifikimi te largimi i mbetjeve",
+    "cta_heading": "Diskutoni projektin tuaj të prishjes.",
+    "cta_body": "Dërgoni vendndodhjen, foto dhe përshkrimin e punës. Do të diskutojmë vlerësimin e kantierit dhe punimet që do të përfshihen në ofertë.",
     "features": [
-      { "title": "Demolim i Plotë Strukturor",          "description": "Rrëzim i plotë i strukturave banesore dhe komerciale të vogla, i kryer me siguri dhe efikasitet nga ekipi ynë me përvojë." },
-      { "title": "Lejedërgime dhe Dokumentacion",       "description": "Ne ndihmojmë në sigurimin e lejedërgimeve të nevojshme dhe sigurojmë që të gjitha punimet e demolimit të jenë në përputhje me rregulloret lokale në Maqedoninë e Veriut." },
-      { "title": "Heqja e Mbeturinave dhe Pastrimi",   "description": "Pasi demolimi të jetë i plotë, ne heqim të gjitha mbeturinat dhe e lëmë kantierit të pastër dhe të liruar — gati për fazën tuaj të ardhshme të ndërtimit." },
-      { "title": "Operacion i Sigurt dhe i Siguruar",  "description": "I gjithë demolimi kryhet me mbulim të plotë sigurimesh, pajisje të duhura sigurie dhe protokolle strikte për të mbrojtur pronën tuaj dhe ekipin tonë." }
-    ]
+      {
+        "title": "Shqyrtim i kantierit dhe hyrjes",
+        "description": "Shqyrtojmë pronën, hyrjen e pajisjeve dhe zonën përreth para se të përcaktojmë punimet."
+      },
+      {
+        "title": "Punime të përcaktuara",
+        "description": "Konfirmojmë cilat struktura ose pjesë të ndërtesës përfshihen dhe çfarë duhet ruajtur."
+      },
+      {
+        "title": "Grumbullim mbetjesh",
+        "description": "Planifikojmë ngarkimin dhe largimin e materialeve të prishjes krahas punimeve, me ndarje të qartë të mbetjeve."
+      },
+      {
+        "title": "Dorëzim i kantierit",
+        "description": "Përcaktojmë në ofertë pastrimin dhe gjendjen e kantierit në dorëzim, që të dini çfarë të prisni."
+      }
+    ],
+    "preparation": {
+      "heading": "Para kërkesës për ofertë",
+      "items": [
+        "Dërgoni foto dhe vendndodhjen e ndërtesës.",
+        "Përshkruani çfarë do të prishet dhe çfarë do të ruhet.",
+        "Na tregoni gjendjen e lejeve dhe lidhjeve të shërbimeve."
+      ]
+    }
   },
   "septic_tank_cleaning": {
-    "tag": "Pastrim i Gropave Septike",
-    "title": "Sisteme Septike Që Punojnë Në Heshtje.",
-    "subtitle": "Zbrazje dhe pastrim profesional i gropave septike në të gjithë Maqedoninë e Veriut, Kosovën dhe Shqipërinë — duke mbrojtur shtëpinë, ujin dhe shëndetin tuaj.",
-    "blurb": "Një pjesë e madhe e shtëpive në rajon ende mbështeten te gropat septike në vend të lidhjes me kanalizimin publik, sidomos jashtë qyteteve më të mëdha. Kur gropa nuk zbrazet me kohë, ajo mbushet, lëshon erë të keqe dhe mund të rrjedhë në tokë dhe në ujërat nëntokësore rreth pronës suaj. Ne kujdesemi për zbrazjen, pastrimin dhe hedhjen e duhur të mbetjeve, në kohën e duhur, kështu që sistemi juaj mbetet larg syve dhe larg shqetësimeve.",
-    "features_heading": "Çfarë përfshihet në çdo shërbim septik",
-    "cta_heading": "Është koha për zbrazjen e gropës septike?",
-    "cta_body": "Qoftë një zbrazje e rregullt, një inspektim i parë, apo një mbushje urgjente, ekipi ynë përgjigjet shpejt me pajisjet e duhura për gropa të çdo madhësie.",
+    "tag": "Zbrazje dhe pastrim gropash septike",
+    "title": "Shërbim praktik për gropën tuaj septike.",
+    "subtitle": "Zbrazje dhe pastrim gropash septike për shtëpi dhe ambiente tregtare në zonën ku ofrojmë shërbim.",
+    "blurb": "Shërbimi septik përfshin largimin e ujërave të ndotura dhe llumit të grumbulluar; është i ndryshëm nga zhbllokimi i kanalizimit. Na tregoni vendndodhjen e gropës, kapacitetin e përafërt, datën e zbrazjes së fundit dhe problemet aktuale. Këto të dhëna na ndihmojnë të planifikojmë hyrjen dhe punën e nevojshme.",
+    "features_heading": "Planifikoni shërbimin septik",
+    "cta_heading": "Organizoni shërbimin e gropës septike.",
+    "cta_body": "Dërgoni vendndodhjen, të dhënat e gropës dhe hyrjen e automjetit. Në rast tejmbushjeje, na telefononi për të diskutuar situatën dhe disponueshmërinë.",
     "features": [
-      { "title": "Zbrazje e Plotë e Gropës",              "description": "Heqim plotësisht llumin dhe ujërat e zeza me cisterna me vakum — jo vetëm një zbrazje të pjesshme — që gropa të jetë vërtet e zbrazur dhe gati të funksionojë sërish." },
-      { "title": "Inspektim për Rrjedhje dhe Dëmtime",   "description": "Në çdo vizitë kontrollojmë për çarje, bllokime, ose shenja se gropa është shumë e vogël për familjen — problemet e vogla të zbuluara herët kursejnë riparime të shtrenjta më vonë." },
-      { "title": "Parandalim Ere dhe Vërshimi",           "description": "Pastrimi i rregullt ndalon grumbullimin që shkakton erë të keqe brenda shtëpisë, rrjedhje të ngadaltë dhe vërshim në oborr apo në puse afër." },
-      { "title": "Hedhje e Mbetjeve Sipas Rregullave",    "description": "Mbetjet e mbledhura transportohen dhe hidhen në vende të miratuara trajtimi, në përputhje me rregulloret mjedisore vendore — jo të hedhura në mënyrë të paligjshme." }
-    ]
+      {
+        "title": "Pompim me vakum",
+        "description": "Pompimi me vakum largon ujërat e ndotura dhe llumin e grumbulluar, me punën të përcaktuar sipas gropës dhe gjendjes së saj."
+      },
+      {
+        "title": "Planifikim i hyrjes",
+        "description": "Konfirmoni vendndodhjen e kapakut dhe vendin ku automjeti mund të ndalojë në mënyrë të sigurt para vizitës."
+      },
+      {
+        "title": "Mirëmbajtje periodike",
+        "description": "Diskutoni një plan zbrazjeje sipas përdorimit, kapacitetit dhe historikut të shërbimeve."
+      },
+      {
+        "title": "Largim i ujërave të ndotura",
+        "description": "Përcaktoni grumbullimin dhe trajtimin e mëtejshëm të ujërave të larguara në marrëveshjen e shërbimit."
+      }
+    ],
+    "preparation": {
+      "heading": "Të dhëna të dobishme për rezervim",
+      "items": [
+        "Gjeni kapakun e hyrjes pa u futur në gropë.",
+        "Tregoni kapacitetin dhe zbrazjen e fundit, nëse i dini.",
+        "Përshkruani tejmbushjen, kullimin e ngadaltë ose problemet e përsëritura."
+      ]
+    }
   },
   "sewer_drainage_cleaning": {
-    "tag": "Pastrim Kanalizimesh dhe Kullimesh",
-    "title": "Tuba të Pastër, Pa Bllokime, Pa Surpriza.",
-    "subtitle": "Pastrim me presion të lartë i kanalizimeve dhe kullimeve për shtëpi, pallate dhe biznese — përgjigje e shpejtë kur bllokimi nuk mund të presë.",
-    "blurb": "Tubat e vjetruar, rrënjët e pemëve, yndyra dhe vite grumbullimi janë shkaqet më të zakonshme të kanalizimeve dhe kullimeve të bllokuara në ndërtesat e vjetra dhe qendrat e qyteteve në rajon. Në vend që ta maskojmë problemin, e pastrojmë plotësisht linjën me ujë me presion të lartë dhe inspektim me kamerë, që uji të rrjedhë siç duhet — dhe i njëjti bllokim të mos kthehet muajin tjetër.",
-    "features_heading": "Çfarë përfshihet në çdo thirrje",
-    "cta_heading": "Keni një kullim të bllokuar apo linjë kanalizimi të ngadaltë?",
-    "cta_body": "Nga një lavaman i vetëm i bllokuar në kuzhinë deri te kanalizimi kryesor i një ndërtese të tërë, sjellim pajisjet e duhura për të diagnostikuar bllokimin dhe për ta pastruar të njëjtën ditë.",
+    "tag": "Pastrim kanalizimesh dhe shkarkimesh",
+    "title": "Riktheni rrjedhjen në kanalizimet tuaja.",
+    "subtitle": "Zhbllokim kanalizimesh dhe tubash shkarkimi për shtëpi, ndërtesa banimi dhe ambiente tregtare.",
+    "blurb": "Kullimi i ngadaltë dhe kthimi i ujërave të ndotura mund të kenë shkaqe të ndryshme. Na tregoni cilat shkarkime preken, nëse problemi përsëritet dhe ku ndodhen pikat e hyrjes. Diskutojmë metodën dhe punën e nevojshme para vizitës. Pastrimi largon pengesat; tubat e dëmtuar mund të kërkojnë riparim të veçantë.",
+    "features_heading": "Një plan i qartë për zhbllokimin",
+    "cta_heading": "Na tregoni ku është bllokimi.",
+    "cta_body": "Dërgoni vendndodhjen, shkarkimet e prekura dhe shenjat e problemit. Për kthim aktiv të ujërave të ndotura, na telefononi për situatën dhe disponueshmërinë.",
     "features": [
-      { "title": "Pastrim me Ujë me Presion të Lartë", "description": "Heqim yndyrën, llumin dhe mbeturinat nga brendësia e tubit, duke pastruar të gjithë diametrin, jo vetëm duke hapur një vrimë përmes bllokimit." },
-      { "title": "Inspektim me Kamerë CCTV",           "description": "Një kamerë e kaluar përgjatë linjës na tregon saktësisht ku ndodhet bllokimi apo dëmtimi, që ta rregullojmë problemin real në vend që të hamendësojmë." },
-      { "title": "Thirrje Urgjente",                   "description": "Vërshimet e kanalizimit nuk presin orarin e punës. I trajtojmë me përparësi bllokimet urgjente dhe tubat e plasaritur për të kufizuar dëmin në pronën tuaj." },
-      { "title": "Linja Banesore dhe Komunale",        "description": "Nga kullimet e shtëpisë deri te kanalizimet kryesore të përbashkëta për pallate dhe bashki të vogla, pajisjet tona përshtaten me madhësinë e linjës." }
+      {
+        "title": "Pastrim me ujë me presion të lartë",
+        "description": "Uji me presion largon yndyrën, llumin dhe depozitime të tjera, me metodën e përshtatur sipas tubit dhe pengesës."
+      },
+      {
+        "title": "Yndyrë dhe sedimente",
+        "description": "Diskutoni pastrimin e depozitimeve që pengojnë rrjedhjen në sistemet shtëpiake ose tregtare."
+      },
+      {
+        "title": "Kanalizime të përbashkëta dhe tregtare",
+        "description": "Organizoni hyrjen për ndërtesa banimi, vende pune dhe prona me kanalizime të përbashkëta."
+      },
+      {
+        "title": "Probleme të përsëritura",
+        "description": "Përshkruani bllokimet e mëparshme që të diskutojmë pastrimin dhe nevojën për kontroll ose riparim të mëtejshëm."
+      }
+    ],
+    "preparation": {
+      "heading": "Para se të kontaktoni ekipin",
+      "items": [
+        "Tregoni shkarkimet e prekura dhe kur nisi problemi.",
+        "Na tregoni për pusetat dhe pikat e tjera të hyrjes.",
+        "Përmendni zhbllokime të mëparshme ose dëmtime të njohura të tubave."
+      ]
+    }
+  },
+  "house_cleaning": {
+    "tag": "Pastrim shtëpish",
+    "title": "Shtëpi më e pastër, me një plan të qartë.",
+    "subtitle": "Pastrim i njëhershëm ose i rregullt i shtëpisë, me dhomat, përparësitë dhe vizitën të dakorduara sipas nevojave tuaja.",
+    "blurb": "Qoftë për pastrim të përditshëm apo për një vizitë më të hollësishme, filloni me hapësirat që kanë më shumë rëndësi për ju. Përcaktojmë dhomat, sipërfaqet dhe detyrat para rezervimit. Për zhvendosje ose rinovim, përshkruani gjendjen e pronës që pastrimi të planifikohet veçmas nga largimi i sendeve të mëdha ose inerteve.",
+    "features_heading": "Pastrim sipas shtëpisë suaj",
+    "cta_heading": "Planifikoni vizitën e ardhshme të pastrimit.",
+    "cta_body": "Na tregoni vendndodhjen, sipërfaqen e përafërt dhe përparësitë. Do të diskutojmë punën dhe një termin të disponueshëm.",
+    "features": [
+      {
+        "title": "Pastrim i hollësishëm",
+        "description": "Përcaktoni dhomat dhe detyrat për një pastrim më të detajuar, përfshirë zonat që kërkojnë vëmendje shtesë."
+      },
+      {
+        "title": "Pastrim i rregullt",
+        "description": "Diskutoni një orar të përsëritur për detyrat e zakonshme të pastrimit të shtëpisë."
+      },
+      {
+        "title": "Pas zhvendosjes dhe rinovimit",
+        "description": "Planifikoni pastrimin e shtëpisë së zbrazët ose pas rinovimit, duke diskutuar fillimisht pluhurin dhe gjendjen e sipërfaqeve."
+      },
+      {
+        "title": "Përparësi të dakorduara",
+        "description": "Konfirmoni sipërfaqet, hyrjen, mjetet e pastrimit dhe udhëzimet e veçanta para mbërritjes së ekipit."
+      }
+    ],
+    "preparation": {
+      "heading": "Na ndihmoni të planifikojmë vizitën",
+      "items": [
+        "Tregoni sipërfaqen dhe numrin e dhomave.",
+        "Listoni detyrat kryesore dhe sipërfaqet delikate.",
+        "Përmendni pluhurin e rinovimit ose sendet për largim të veçantë."
+      ]
+    }
+  },
+  "service_ui": {
+    "quote": "Kërkoni ofertë",
+    "service": "Shërbimi",
+    "talk": "Le të flasim",
+    "preparation_tag": "Planifikoni shërbimin",
+    "contact_hint": "Dërgoni vendndodhjen dhe disa të dhëna që të diskutojmë shërbimin e përshtatshëm.",
+    "image_alt": "Eco Living —",
+    "placeholder": "Foto e shërbimit"
+  },
+  "container_guide": {
+    "heading": "Udhëzues për madhësitë e zakonshme",
+    "intro": "Këto kapacitete përdoren nga operatorët lokalë. Zgjidhni sipas materialeve, peshës dhe hapësirës në kantier; konfirmoni kontejnerin e disponueshëm para rezervimit.",
+    "capacity_label": "Kapaciteti",
+    "dimensions_label": "Përmasa orientuese · Gjat. × Gjer. × Lart.",
+    "use_label": "Përdorimi i zakonshëm",
+    "note": "Përmasat mund të ndryshojnë sipas modelit të kontejnerit. Konfirmoni hapësirën e nevojshme për dërgim gjatë rezervimit.",
+    "pickup_rows": [
+      {
+        "capacity": "120 L",
+        "dimensions": "0,48 × 0,56 × 0,95 m",
+        "use": "Pika grumbullimi për familje më të vogla"
+      },
+      {
+        "capacity": "240 L",
+        "dimensions": "0,58 × 0,73 × 1,08 m",
+        "use": "Pika grumbullimi për familje më të mëdha"
+      },
+      {
+        "capacity": "1 100 L · 1,1 m³",
+        "dimensions": "1,37 × 1,07 × 1,34 m",
+        "use": "Grumbullim i përbashkët banimi dhe tregtar"
+      }
+    ],
+    "rental_rows": [
+      {
+        "capacity": "1 100 L · 1,1 m³",
+        "dimensions": "1,37 × 1,07 × 1,34 m",
+        "use": "Pika grumbullimi të përbashkëta ose tregtare"
+      },
+      {
+        "capacity": "5 m³",
+        "dimensions": "≈ 3,3 × 1,6–1,7 × 1,3–1,5 m",
+        "use": "Mbetje projekti, sipas materialit dhe kufirit të ngarkesës"
+      },
+      {
+        "capacity": "7 m³",
+        "dimensions": "≈ 3,5 × 1,6–1,7 × 1,5 m",
+        "use": "Vëllime më të mëdha projekti, sipas kufirit të ngarkesës"
+      }
     ]
   }
 }

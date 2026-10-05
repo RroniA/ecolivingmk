@@ -89,6 +89,7 @@ export default function Footer() {
                 <li><Link href="/house-demolition" className="text-sm" style={{ color: "rgba(244,243,234,0.6)" }}>House Demolition</Link></li>
                 <li><Link href="/septic-tank-cleaning" className="text-sm" style={{ color: "rgba(244,243,234,0.6)" }}>Septic Tank Cleaning</Link></li>
                 <li><Link href="/sewer-drainage-cleaning" className="text-sm" style={{ color: "rgba(244,243,234,0.6)" }}>Sewer & Drainage Cleaning</Link></li>
+                <li><Link href="/house-cleaning" className="text-sm" style={{ color: "rgba(244,243,234,0.6)" }}>House Cleaning</Link></li>
               </ul>
             </div>
 
@@ -147,7 +148,7 @@ export default function Footer() {
           style={{ borderTop: "1px solid rgba(244,243,234,0.08)" }}
         >
           <span className="text-sm" style={{ color: "rgba(244,243,234,0.35)", fontFamily: "var(--font-body)" }}>
-            © 2024 Eco Living. All rights reserved.
+            © 2026 Eco Living. All rights reserved.
           </span>
           <span className="text-xs" style={{ color: "rgba(244,243,234,0.2)", fontFamily: "var(--font-body)" }}>
             ecoliving.mk

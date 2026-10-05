@@ -36,6 +36,8 @@ export default function DumpsterRentalPage() {
       blurb={d.blurb}
       featuresHeading={d.features_heading}
       features={features}
+      preparation={d.preparation}
+      containerGuide="rental"
       imageSrc="/images/dumpster-rental.jpg"
       ctaHeading={d.cta_heading}
       ctaBody={d.cta_body}

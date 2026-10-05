@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import LanguageSwitcher from "./LanguageSwitcher";
@@ -11,15 +11,53 @@ const serviceLinks = [
   { label: "House Demolition",        href: "/house-demolition"        },
   { label: "Septic Tank Cleaning",    href: "/septic-tank-cleaning"    },
   { label: "Sewer & Drainage Cleaning", href: "/sewer-drainage-cleaning" },
+    { label: "House Cleaning",          href: "/house-cleaning"          },
 ];
 
 export default function Navbar() {
+  const pathname = usePathname();
+  return <NavbarMenu key={pathname} pathname={pathname} />;
+}
+
+function NavbarMenu({ pathname }: { pathname: string }) {
   const [menuOpen, setMenuOpen]       = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
-  const pathname = usePathname();
+  const navRef = useRef<HTMLElement>(null);
+
+  function closeMenus() {
+    setMenuOpen(false);
+    setServicesOpen(false);
+  }
+
+  useEffect(() => {
+    if (!menuOpen && !servicesOpen) return;
+
+    function onPointerDown(event: PointerEvent) {
+      if (event.target instanceof Node && !navRef.current?.contains(event.target)) {
+        setMenuOpen(false);
+        setServicesOpen(false);
+      }
+    }
+    function onKeyDown(event: KeyboardEvent) {
+      if (event.key === "Escape") {
+        setMenuOpen(false);
+        setServicesOpen(false);
+      }
+    }
+    document.addEventListener("pointerdown", onPointerDown);
+    document.addEventListener("keydown", onKeyDown);
+    return () => {
+      document.removeEventListener("pointerdown", onPointerDown);
+      document.removeEventListener("keydown", onKeyDown);
+    };
+  }, [menuOpen, servicesOpen]);
 
   return (
     <nav
+      ref={navRef}
+      onClickCapture={(event) => {
+        if (event.target instanceof Element && event.target.closest("a[href]")) closeMenus();
+      }}
       className="fixed w-full z-50 top-3 px-4"
       style={{ pointerEvents: "none" }}
     >
@@ -27,9 +65,9 @@ export default function Navbar() {
         className="max-w-[1100px] mx-auto rounded-2xl"
         style={{
           pointerEvents: "auto",
-          backgroundColor: "rgba(244, 243, 234, 0.55)",
-          backdropFilter: "blur(32px) saturate(180%)",
-          WebkitBackdropFilter: "blur(32px) saturate(180%)",
+          backgroundColor: "rgba(244, 243, 234, 0.88)",
+          backdropFilter: "blur(12px)",
+          WebkitBackdropFilter: "blur(12px)",
           isolation: "isolate",
         }}
       >
@@ -70,10 +108,12 @@ export default function Navbar() {
             <li className="relative">
               <button
                 onClick={() => setServicesOpen(!servicesOpen)}
+                aria-expanded={servicesOpen}
+                aria-controls="desktop-services-menu"
                 className="flex items-center gap-1 px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200 hover:bg-black/[0.06]"
                 style={{
                   fontFamily: "var(--font-body)",
-                  color: pathname.includes("garbage") || pathname.includes("dumpster") || pathname.includes("demolition") || pathname.includes("septic") || pathname.includes("sewer") ? "#1a1a17" : "#7a7a6e",
+                  color: pathname.includes("garbage") || pathname.includes("dumpster") || pathname.includes("demolition") || pathname.includes("septic") || pathname.includes("sewer")  || pathname.includes("house-cleaning") ? "#1a1a17" : "#7a7a6e",
                 }}
               >
                 Services
@@ -87,11 +127,10 @@ export default function Navbar() {
               </button>
               {servicesOpen && (
                 <div
+                  id="desktop-services-menu"
                   className="absolute top-full left-0 mt-1 w-48 rounded-xl overflow-hidden shadow-lg"
                   style={{
                     backgroundColor: "rgba(244, 243, 234, 0.95)",
-                    backdropFilter: "blur(32px)",
-                    WebkitBackdropFilter: "blur(32px)",
                     border: "1px solid rgba(26,26,23,0.08)",
                   }}
                 >
@@ -140,7 +179,7 @@ export default function Navbar() {
 
             {/* Hamburger — mobile only */}
             <button
-              onClick={() => setMenuOpen(!menuOpen)}
+              onClick={() => { setMenuOpen(!menuOpen); setServicesOpen(false); }}
               className="md:hidden inline-flex items-center justify-center w-9 h-9 rounded-lg text-[#7a7a6e] hover:bg-black/[0.06] hover:text-[#1a1a17] transition-colors"
               aria-expanded={menuOpen}
             >
@@ -186,6 +225,8 @@ export default function Navbar() {
               <li>
                 <button
                   onClick={() => setServicesOpen(!servicesOpen)}
+                  aria-expanded={servicesOpen}
+                  aria-controls="mobile-services-menu"
                   className="flex items-center justify-between w-full px-4 py-2.5 rounded-lg text-sm font-medium transition-colors hover:bg-black/[0.06]"
                   style={{ fontFamily: "var(--font-body)", color: "#7a7a6e" }}
                 >
@@ -199,7 +240,7 @@ export default function Navbar() {
                   </svg>
                 </button>
                 {servicesOpen && (
-                  <ul className="pl-4 flex flex-col gap-0.5 mt-0.5">
+                  <ul id="mobile-services-menu" className="pl-4 flex flex-col gap-0.5 mt-0.5">
                     {serviceLinks.map((link) => (
                       <li key={link.href}>
                         <Link

@@ -36,6 +36,8 @@ export default function GarbagePickupPage() {
       blurb={d.blurb}
       featuresHeading={d.features_heading}
       features={features}
+      preparation={d.preparation}
+      containerGuide="pickup"
       imageSrc="/images/garbage-pickup.jpg"
       ctaHeading={d.cta_heading}
       ctaBody={d.cta_body}

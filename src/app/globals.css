@@ -18,9 +18,7 @@
 }
 
 /* ── Base Setup & Resets ── */
-html {
-  scroll-behavior: smooth;
-}
+/* Lenis controls scroll interpolation; avoid competing CSS smooth scrolling. */
 
 body {
   background-color: var(--color-bg);

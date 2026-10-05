@@ -12,6 +12,7 @@ const servicesMeta = [
   { index: "03", href: "/house-demolition",         color: "#2a2a25", accent: "#b6e400", imageSrc: "/images/house-demolition.jpg" },
   { index: "04", href: "/septic-tank-cleaning",     color: "#302f29", accent: "#b6e400", imageSrc: "/images/septic-tank-cleaning.jpg" },
   { index: "05", href: "/sewer-drainage-cleaning",  color: "#373630", accent: "#b6e400", imageSrc: "/images/sewer-drainage-cleaning.jpg" },
+    { index: "06", href: "/house-cleaning",           color: "#3d3c35", accent: "#b6e400", imageSrc: "/images/house-cleaning.jpg" },
 ];
 
 interface CardProps {

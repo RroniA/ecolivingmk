@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Button from "@/components/ui/Button";
 import { useI18n } from "@/lib/i18n";
@@ -76,7 +76,7 @@ function GlassCard({ onPlay }: { onPlay: () => void }) {
       initial={{ opacity: 0, y: 24 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, delay: 0.5, ease: [0.25, 0.1, 0.25, 1] as const }}
-      className="relative w-full max-w-[320px] rounded-2xl overflow-hidden border border-white/20 bg-white/10 backdrop-blur-[24px] p-5 flex flex-col gap-4"
+      className="relative w-full max-w-[320px] rounded-2xl overflow-hidden border border-white/20 bg-black/30 p-5 flex flex-col gap-4"
       style={{ boxShadow: "0 8px 40px rgba(0,0,0,0.25), inset 0 1px 0 rgba(255,255,255,0.15)" }}
     >
       <div className="flex items-center gap-2">
@@ -116,11 +116,50 @@ function GlassCard({ onPlay }: { onPlay: () => void }) {
 
 export default function Hero() {
   const [modalOpen, setModalOpen] = useState(false);
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const sectionRef = useRef<HTMLElement>(null);
   const { t } = useI18n();
+
+  useEffect(() => {
+    const video = videoRef.current;
+    const section = sectionRef.current;
+    if (!video || !section) return;
+
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+    let heroHeight = section.getBoundingClientRect().height;
+    let playing = false;
+    function syncPlayback() {
+      // The sticky hero stays in the viewport even after opaque sections cover it.
+      const shouldPlay = !document.hidden && !reducedMotion.matches && !modalOpen
+        && window.scrollY < heroHeight;
+      if (shouldPlay === playing) return;
+      playing = shouldPlay;
+      if (shouldPlay) {
+        void video!.play().catch(() => { playing = false; });
+      } else {
+        video!.pause();
+      }
+    }
+    function onResize() {
+      heroHeight = section!.getBoundingClientRect().height;
+      syncPlayback();
+    }
+    syncPlayback();
+    window.addEventListener("scroll", syncPlayback, { passive: true });
+    window.addEventListener("resize", onResize);
+    document.addEventListener("visibilitychange", syncPlayback);
+    reducedMotion.addEventListener("change", syncPlayback);
+    return () => {
+      window.removeEventListener("scroll", syncPlayback);
+      window.removeEventListener("resize", onResize);
+      document.removeEventListener("visibilitychange", syncPlayback);
+      reducedMotion.removeEventListener("change", syncPlayback);
+      video.pause();
+    };
+  }, [modalOpen]);
 
   const { scrollY } = useScroll();
   const contentOpacity = useTransform(scrollY, [0, 400], [1, 0]);
-  const contentBlur = useTransform(scrollY, [0, 400], ["blur(0px)", "blur(10px)"]);
   const contentY = useTransform(scrollY, [0, 400], ["0%", "-6%"]);
 
   return (
@@ -132,13 +171,14 @@ export default function Hero() {
         The `relative z-10` div wrapping all sections after Hero in page.tsx
         is what makes them slide over this sticky video background.
       */}
-      <section className="sticky top-0 h-screen w-full overflow-hidden bg-[#1a1a17] z-0">
+      <section ref={sectionRef} className="sticky top-0 h-screen w-full overflow-hidden bg-[#1a1a17] z-0">
 
         {/* VIDEO */}
         <div className="absolute inset-0 w-full h-full">
           <video
+            ref={videoRef}
             className="w-full h-full object-cover"
-            autoPlay muted loop playsInline preload="auto" aria-hidden="true"
+            muted loop playsInline preload="auto" aria-hidden="true"
           >
             <source src={VIDEO_SRC} type="video/mp4" />
           </video>
@@ -148,7 +188,7 @@ export default function Hero() {
         {/* CONTENT */}
         <motion.div
           className="relative z-10 h-full flex items-center"
-          style={{ opacity: contentOpacity, filter: contentBlur, y: contentY }}
+          style={{ opacity: contentOpacity, y: contentY }}
         >
           <div className="mx-auto w-full max-w-6xl px-6 md:px-12 lg:px-20">
             <div className="

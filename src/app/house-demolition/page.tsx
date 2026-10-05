@@ -36,6 +36,7 @@ export default function HouseDemolitionPage() {
       blurb={d.blurb}
       featuresHeading={d.features_heading}
       features={features}
+      preparation={d.preparation}
       imageSrc="/images/house-demolition.jpg"
       ctaHeading={d.cta_heading}
       ctaBody={d.cta_body}

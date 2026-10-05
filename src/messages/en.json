@@ -19,15 +19,39 @@
     "heading": "A leading waste management company dedicated to sustainable solutions for a greener world.",
     "cta": "Learn More",
     "pillars": [
-      { "index": "01", "title": "Our Vision",  "body": "A North Macedonia where waste is managed responsibly at every level — from households to industrial sites — creating cleaner public spaces for generations to come." },
-      { "index": "02", "title": "Our Mission", "body": "To provide quality, affordable waste collection services that communities can depend on. Punctual pickups, clear communication, and a genuine commitment to the environment." },
-      { "index": "03", "title": "Our Work",    "body": "From dumpster rentals and garbage pickups to full demolition waste removal, we handle every job with the same standard — whether a single household or a large construction site." }
+      {
+        "index": "01",
+        "title": "Our Vision",
+        "body": "A North Macedonia where waste is managed responsibly at every level — from households to industrial sites — creating cleaner public spaces for generations to come."
+      },
+      {
+        "index": "02",
+        "title": "Our Mission",
+        "body": "To provide quality, affordable waste collection services that communities can depend on. Punctual pickups, clear communication, and a genuine commitment to the environment."
+      },
+      {
+        "index": "03",
+        "title": "Our Work",
+        "body": "From dumpster rentals and garbage pickups to full demolition waste removal, we handle every job with the same standard — whether a single household or a large construction site."
+      }
     ],
     "stats": [
-      { "value": "36,000+", "label": "Happy Clients" },
-      { "value": "120+",    "label": "Partner Companies" },
-      { "value": "10+",     "label": "Projects Completed" },
-      { "value": "3",       "label": "Regions Covered" }
+      {
+        "value": "36,000+",
+        "label": "Happy Clients"
+      },
+      {
+        "value": "120+",
+        "label": "Partner Companies"
+      },
+      {
+        "value": "10+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "3",
+        "label": "Regions Covered"
+      }
     ]
   },
   "about_page": {
@@ -36,25 +60,82 @@
     "subtitle": "Eco Living is a waste management company serving municipalities, businesses, and households across the Western Macedonia region — delivering reliable, affordable, and environmentally responsible collection services.",
     "pull_quote": "We believe proper waste management isn't a luxury — it's a foundation for healthy communities. Since our founding, we have worked alongside local governments, private companies, and residents to build systems that actually work: punctual pickups, clear communication, and a genuine commitment to reducing environmental impact.",
     "stats": [
-      { "value": "36,000+", "label": "Happy clients" },
-      { "value": "120+",    "label": "Partner companies" },
-      { "value": "10+",     "label": "Projects completed" },
-      { "value": "3",       "label": "Regions covered" }
+      {
+        "value": "36,000+",
+        "label": "Happy clients"
+      },
+      {
+        "value": "120+",
+        "label": "Partner companies"
+      },
+      {
+        "value": "10+",
+        "label": "Projects completed"
+      },
+      {
+        "value": "3",
+        "label": "Regions covered"
+      }
     ],
     "values_label": "What drives us",
     "values_heading": "Our vision, mission, and work ethic.",
     "values": [
-      { "index": "01 — Vision",   "title": "A greener future for every community.",     "body": "We envision a North Macedonia where waste is managed responsibly at every level — from households to industrial sites — creating cleaner public spaces and a healthier environment for generations to come." },
-      { "index": "02 — Mission",  "title": "Reliable service, delivered with care.",     "body": "Our mission is to provide quality, affordable waste collection and management services that communities can depend on — showing up on time, treating every client with respect, and continuously improving how we operate." },
-      { "index": "03 — Our Work", "title": "Hands-on, local, and accountable.",          "body": "From dumpster rentals and garbage pickups to full demolition waste removal, we handle every job with the same standard of professionalism — whether it is a single household or a large construction site across the region." }
+      {
+        "index": "01 — Vision",
+        "title": "A greener future for every community.",
+        "body": "We envision a North Macedonia where waste is managed responsibly at every level — from households to industrial sites — creating cleaner public spaces and a healthier environment for generations to come."
+      },
+      {
+        "index": "02 — Mission",
+        "title": "Reliable service, delivered with care.",
+        "body": "Our mission is to provide quality, affordable waste collection and management services that communities can depend on — showing up on time, treating every client with respect, and continuously improving how we operate."
+      },
+      {
+        "index": "03 — Our Work",
+        "title": "Hands-on, local, and accountable.",
+        "body": "From dumpster rentals and garbage pickups to full demolition waste removal, we handle every job with the same standard of professionalism — whether it is a single household or a large construction site across the region."
+      }
     ],
     "services_label": "What we offer",
-    "services_heading": "Three core services, one reliable team.",
+    "services_heading": "Six services for homes and businesses.",
     "services_cta": "Get a Quote",
     "services": [
-      { "href": "/garbage-pickup",   "title": "Garbage Pickup",   "body": "Scheduled and on-demand waste collection for homes, businesses, and municipalities throughout the region.", "link": "View Details →" },
-      { "href": "/dumpster-rental",  "title": "Dumpster Rental",  "body": "Short and long-term container rental for construction sites, renovations, and large-scale cleanouts.", "link": "View Details →" },
-      { "href": "/house-demolition", "title": "House Demolition", "body": "Safe, compliant demolition and debris removal handled by an experienced local crew.", "link": "View Details →" }
+      {
+        "href": "/garbage-pickup",
+        "title": "Garbage Pickup",
+        "body": "Regular collection for households, shared residential properties, and businesses in our service area.",
+        "link": "View Details →"
+      },
+      {
+        "href": "/dumpster-rental",
+        "title": "Waste Container Rental",
+        "body": "Container rental for renovations, construction work, and property clearouts, with delivery and collection arranged around your site.",
+        "link": "View Details →"
+      },
+      {
+        "href": "/house-demolition",
+        "title": "House Demolition",
+        "body": "Demolition and debris removal for residential projects, with the scope agreed after reviewing the property and access.",
+        "link": "View Details →"
+      },
+      {
+        "href": "/septic-tank-cleaning",
+        "title": "Septic Tank Emptying & Cleaning",
+        "body": "Emptying and cleaning for septic tanks and cesspools at homes and commercial properties in our service area.",
+        "link": "View Details →"
+      },
+      {
+        "href": "/sewer-drainage-cleaning",
+        "title": "Sewer & Drainage Cleaning",
+        "body": "Drain and sewer unblocking for homes, shared residential buildings, and commercial properties.",
+        "link": "View Details →"
+      },
+      {
+        "href": "/house-cleaning",
+        "title": "House Cleaning",
+        "body": "One-off and recurring home cleaning, with the rooms, priorities, and visit agreed around your needs.",
+        "link": "View Details →"
+      }
     ],
     "cta_label": "Ready to start?",
     "cta_heading": "Let's build a cleaner solution together.",
@@ -81,7 +162,15 @@
     "field_service_placeholder": "Select a service…",
     "field_message": "Message",
     "field_message_placeholder": "Describe your needs…",
-    "service_options": ["Garbage Pickup", "Dumpster Rental", "House Demolition", "Other"],
+    "service_options": [
+      "Garbage Pickup",
+      "Waste Container Rental",
+      "House Demolition",
+      "Septic Tank Emptying & Cleaning",
+      "Sewer & Drainage Cleaning",
+      "House Cleaning",
+      "Other"
+    ],
     "send": "Send Message",
     "send_note": "We'll respond within 24–48 hours.",
     "map_label": "Our location",
@@ -94,33 +183,70 @@
   "services": {
     "tag": "What We Offer",
     "heading": "Our Best Solutions",
-    "subtitle": "Three core services built around reliability, transparency, and environmental responsibility.",
+    "subtitle": "Waste collection, container rental, demolition, septic services, drain cleaning, and home cleaning from one local team.",
     "view_details": "View Details",
     "label": "Services",
     "items": [
-      { "title": "Garbage Pickup",   "description": "Scheduled and on-demand waste collection for homes, businesses, and municipalities. Reliable, punctual, and priced fairly." },
-      { "title": "Dumpster Rental",  "description": "Short and long-term container rental for construction sites, renovations, and large-scale cleanouts across the region." },
-      { "title": "House Demolition", "description": "Safe, compliant demolition and debris removal handled by an experienced local crew with full site cleanup." },
-      { "title": "Septic Tank Cleaning", "description": "Professional pumping and cleaning for septic tanks and cesspools, keeping rural homes and properties safe, odor-free, and compliant." },
-      { "title": "Sewer & Drainage Cleaning", "description": "High-pressure jetting and blockage clearing for household and municipal drains, restoring proper flow fast." }
+      {
+        "title": "Garbage Pickup",
+        "description": "Regular collection for households, shared residential properties, and businesses in our service area."
+      },
+      {
+        "title": "Waste Container Rental",
+        "description": "Container rental for renovations, construction work, and property clearouts, with delivery and collection arranged around your site."
+      },
+      {
+        "title": "House Demolition",
+        "description": "Demolition and debris removal for residential projects, with the scope agreed after reviewing the property and access."
+      },
+      {
+        "title": "Septic Tank Emptying & Cleaning",
+        "description": "Emptying and cleaning for septic tanks and cesspools at homes and commercial properties in our service area."
+      },
+      {
+        "title": "Sewer & Drainage Cleaning",
+        "description": "Drain and sewer unblocking for homes, shared residential buildings, and commercial properties."
+      },
+      {
+        "title": "House Cleaning",
+        "description": "One-off and recurring home cleaning, with the rooms, priorities, and visit agreed around your needs."
+      }
     ]
   },
   "projects": {
     "tag": "Our Work",
     "heading": "Showcase of Completed Projects",
     "items": [
-      { "title": "Chegrane Municipal Cleanup",  "location": "Chegrane, Gostivar" },
-      { "title": "Brvenitsa Dumpster Program",  "location": "Brvenitsa" },
-      { "title": "Želino Waste Collection",     "location": "Želino" }
+      {
+        "title": "Chegrane Municipal Cleanup",
+        "location": "Chegrane, Gostivar"
+      },
+      {
+        "title": "Brvenitsa Dumpster Program",
+        "location": "Brvenitsa"
+      },
+      {
+        "title": "Želino Waste Collection",
+        "location": "Želino"
+      }
     ]
   },
   "map": {
     "tag": "Overview Projects",
     "heading": "We Completed Waste Management Across 3 Regions",
     "stats": [
-      { "value": "10+",   "label": "Projects Completed" },
-      { "value": "3.6K+", "label": "Satisfied Clients" },
-      { "value": "3",     "label": "Regions Covered" }
+      {
+        "value": "10+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "3.6K+",
+        "label": "Satisfied Clients"
+      },
+      {
+        "value": "3",
+        "label": "Regions Covered"
+      }
     ],
     "hq": "HQ"
   },
@@ -131,77 +257,263 @@
   },
   "garbage_pickup": {
     "tag": "Garbage Pickup",
-    "title": "Reliable Waste Collection, Every Time.",
-    "subtitle": "We provide scheduled garbage pickup for homes and businesses throughout North Macedonia — consistent, affordable, and environmentally responsible.",
-    "blurb": "Waste collection shouldn't be something you have to think about. Our team ensures your garbage is picked up on time, every time, properly sorted and delivered to certified processing facilities — so you can focus on what matters.",
-    "features_heading": "What's included in every pickup",
-    "cta_heading": "Ready to set up a collection schedule?",
-    "cta_body": "Whether you're a household looking for regular pickup or a business managing large volumes, we'll put together a plan that works for you.",
+    "title": "Waste collection that fits your property.",
+    "subtitle": "Regular collection for households, shared residential properties, and businesses in our service area.",
+    "blurb": "A useful collection plan starts with the waste your property produces. We agree the waste types, collection point, vehicle access, and pickup frequency before arranging the service. Routine household and commercial waste, bulky items, and construction debris need different arrangements, so tell us what you need removed.",
+    "features_heading": "A collection plan built around your needs",
+    "cta_heading": "Arrange regular waste collection.",
+    "cta_body": "Send us your location, property type, and approximate waste volume. We will confirm coverage and discuss a suitable collection schedule.",
     "features": [
-      { "title": "Scheduled Weekly Collection", "description": "Reliable, on-time pickup on a schedule that fits your household or business. No missed days, no delays — we show up when we say we will." },
-      { "title": "Sorted & Separated Waste",    "description": "We collect general waste, recyclables, and organic waste separately — supporting proper processing at certified facilities across the region." },
-      { "title": "Flexible Pickup Timeframes",  "description": "Morning or afternoon windows available. We work around your schedule so waste collection never disrupts your day." },
-      { "title": "Residential & Commercial",    "description": "From single households to large office complexes, our fleet and capacity scale to meet any volume of waste collection." }
-    ]
+      {
+        "title": "Agreed pickup schedule",
+        "description": "Plan collection frequency around your household or business, with the collection point and access agreed in advance."
+      },
+      {
+        "title": "Clear waste categories",
+        "description": "Tell us whether you have mixed household waste or separated materials so we can confirm the appropriate collection arrangement."
+      },
+      {
+        "title": "Homes and businesses",
+        "description": "Collection planning for homes, shared properties, shops, offices, and other commercial premises."
+      },
+      {
+        "title": "Larger loads by arrangement",
+        "description": "Furniture, renovation debris, and unusually large loads should be discussed separately from your routine pickup."
+      }
+    ],
+    "preparation": {
+      "heading": "Before arranging collection",
+      "items": [
+        "Share your address and the type of property.",
+        "Describe the waste and how often it accumulates.",
+        "Tell us where the collection vehicle can stop."
+      ]
+    }
   },
   "dumpster_rental": {
-    "tag": "Dumpster Rental",
-    "title": "The Right Container for Any Job.",
-    "subtitle": "Short-term or long-term dumpster rental for construction, renovation, events, and commercial cleanouts — delivered fast, picked up on demand.",
-    "blurb": "Big projects generate big waste. Our container rental service gives you the space you need, exactly where you need it. We handle delivery, pickup, and responsible disposal — so your site stays clean and your project stays on schedule.",
-    "features_heading": "Everything included in your rental",
-    "cta_heading": "Need a container delivered tomorrow?",
-    "cta_body": "Tell us the size you need, where to drop it, and for how long. We'll handle everything else and have it at your site within 24 hours.",
+    "tag": "Waste Container Rental",
+    "title": "Make room for your project’s waste.",
+    "subtitle": "Container rental for renovations, construction work, and property clearouts, with delivery and collection arranged around your site.",
+    "blurb": "The right container depends on more than volume. Heavy rubble, lighter bulky items, available space, and vehicle access all affect the choice. Tell us what your project involves and we will confirm the available container, accepted materials, loading limits, rental period, and collection arrangements before delivery.",
+    "features_heading": "Plan the container around the job",
+    "cta_heading": "Tell us about your project.",
+    "cta_body": "Share the location, materials, estimated quantity, and preferred dates. We will confirm the available sizes and the space needed for delivery.",
     "features": [
-      { "title": "Multiple Container Sizes", "description": "From compact 6 m³ containers for home renovations to 30 m³ industrial units for construction sites — we have the right size for every job." },
-      { "title": "Fast Delivery & Pickup",   "description": "Container delivered to your location within 24 hours of booking. When you're done, we pick it up promptly — no waiting, no hassle." },
-      { "title": "Flexible Rental Periods",  "description": "Rent by the day, week, or month. Extend your rental with a single call — no penalties, no paperwork." },
-      { "title": "Responsible Disposal",     "description": "All collected waste is transported to certified sorting and disposal facilities. Recyclable materials are separated and processed appropriately." }
-    ]
+      {
+        "title": "Size and load guidance",
+        "description": "Choose a container based on waste volume and weight. Confirm its exact dimensions and load limit before reserving space."
+      },
+      {
+        "title": "Delivery and collection",
+        "description": "Agree where the container will stand and how the collection vehicle will reach it, including access for removal when full."
+      },
+      {
+        "title": "An agreed rental period",
+        "description": "Arrange the hire period around the work. Contact us if your dates change or you need another collection."
+      },
+      {
+        "title": "Accepted materials",
+        "description": "Describe rubble, soil, timber, or bulky items when booking. Ask before adding liquids, chemicals, asbestos, or other specialist waste."
+      }
+    ],
+    "preparation": {
+      "heading": "Before the container arrives",
+      "items": [
+        "Send a description or photos of the materials.",
+        "Confirm a suitable standing area and vehicle access.",
+        "Discuss placement permission if you need public space."
+      ]
+    }
   },
   "house_demolition": {
     "tag": "House Demolition",
-    "title": "Safe, Clean Demolition From Start to Finish.",
-    "subtitle": "Professional structural demolition for residential and commercial properties — with full debris removal, site cleanup, and permit assistance included.",
-    "blurb": "Demolition is more than knocking walls down. It requires careful planning, the right equipment, and a responsible approach to what happens to the materials after. Our team manages the entire process — from permits to the final site cleanup — so you start your next project on solid ground.",
-    "features_heading": "What we handle for you",
-    "cta_heading": "Planning a demolition project?",
-    "cta_body": "Get in touch and we'll assess your site, walk you through the process, and provide a clear quote. No surprises, no hidden costs.",
+    "title": "Plan the demolition. Clear the site.",
+    "subtitle": "Demolition and debris removal for residential projects, with the scope agreed after reviewing the property and access.",
+    "blurb": "Every demolition project starts with the building and its surroundings. We discuss what needs removing, nearby properties, site access, and how the debris will be collected. Permissions, utility disconnections, and any materials needing specialist handling must be addressed before work begins.",
+    "features_heading": "From site planning to debris removal",
+    "cta_heading": "Discuss your demolition project.",
+    "cta_body": "Send the location, photos, and a description of the work. We will discuss the site assessment and the scope to include in your quote.",
     "features": [
-      { "title": "Full Structural Demolition",    "description": "Complete teardown of residential and small commercial structures, carried out safely and efficiently by our experienced crew." },
-      { "title": "Permits & Documentation",       "description": "We assist with securing the necessary permits and ensure all demolition work complies with local regulations in North Macedonia." },
-      { "title": "Debris Removal & Site Cleanup", "description": "Once demolition is complete, we remove all debris and leave the site clean and cleared — ready for your next construction phase." },
-      { "title": "Safe & Insured Operation",      "description": "All demolition is carried out with full insurance coverage, proper safety equipment, and strict protocols to protect your property and our crew." }
-    ]
+      {
+        "title": "Site and access review",
+        "description": "Review the property, access for equipment, and surrounding areas before agreeing the work."
+      },
+      {
+        "title": "A defined scope",
+        "description": "Confirm which structures or parts of the building are included and what needs to stay in place."
+      },
+      {
+        "title": "Debris collection",
+        "description": "Plan the loading and removal of demolition material alongside the work, keeping waste streams clear."
+      },
+      {
+        "title": "Site handover",
+        "description": "Agree the cleanup and handover condition in the quote so you know what to expect when the work ends."
+      }
+    ],
+    "preparation": {
+      "heading": "Before requesting a quote",
+      "items": [
+        "Share photos and the location of the building.",
+        "Describe what should be demolished and retained.",
+        "Tell us the status of permissions and utility connections."
+      ]
+    }
   },
   "septic_tank_cleaning": {
-    "tag": "Septic Tank Cleaning",
-    "title": "Septic Systems That Work Quietly In The Background.",
-    "subtitle": "Professional emptying and cleaning for septic tanks and cesspools across North Macedonia, Kosovo, and Albania — protecting your home, your water, and your health.",
-    "blurb": "A large share of homes across the region still rely on septic tanks rather than a public sewage connection, especially outside the bigger cities. When a tank isn't emptied on schedule, it backs up, smells, and can leak into the soil and groundwater around your property. We handle the pumping, cleaning, and disposal properly and on schedule, so your system stays out of sight and out of mind.",
-    "features_heading": "What's included in every septic service",
-    "cta_heading": "Time for a septic tank pump-out?",
-    "cta_body": "Whether it's a routine emptying, a first-time inspection, or an emergency backup, our crew responds quickly with the right equipment for tanks of any size.",
+    "tag": "Septic Tank Emptying & Cleaning",
+    "title": "A practical service for your septic tank.",
+    "subtitle": "Emptying and cleaning for septic tanks and cesspools at homes and commercial properties in our service area.",
+    "blurb": "Septic service involves removing accumulated wastewater and sludge; it is separate from clearing a blocked drain. Tell us the tank location, approximate capacity, last emptying date, and any current problems. We use these details to plan access and agree the work needed for your property.",
+    "features_heading": "Plan your tank service",
+    "cta_heading": "Arrange a septic tank service.",
+    "cta_body": "Share your location, tank details, and vehicle access. If the tank is overflowing, call us to discuss the situation and current availability.",
     "features": [
-      { "title": "Full Tank Pumping & Emptying", "description": "We remove sludge and wastewater completely using vacuum tankers, not just a partial pump-out, so the tank is properly emptied and ready to work again." },
-      { "title": "Leak & Damage Inspection",     "description": "Every visit includes a check for cracks, blockages, or signs the tank is undersized for the household — small problems caught early save costly repairs later." },
-      { "title": "Odor & Overflow Prevention",   "description": "Regular cleaning stops the buildup that causes bad smells indoors, slow drains, and overflow into your yard or nearby wells." },
-      { "title": "Compliant Waste Disposal",     "description": "Collected waste is transported and disposed of at approved treatment sites, in line with local environmental regulations, not dumped illegally." }
-    ]
+      {
+        "title": "Vacuum pumping",
+        "description": "Vacuum pumping removes accumulated wastewater and sludge, with the scope agreed for the tank and its condition."
+      },
+      {
+        "title": "Access planning",
+        "description": "Confirm the access cover location and where the service vehicle can safely stop before the visit."
+      },
+      {
+        "title": "Recurring maintenance",
+        "description": "Discuss an emptying schedule based on the tank’s use, capacity, and previous service history."
+      },
+      {
+        "title": "Wastewater removal",
+        "description": "Include collection and onward handling of the removed wastewater in the agreed service arrangements."
+      }
+    ],
+    "preparation": {
+      "heading": "Useful details for booking",
+      "items": [
+        "Locate the access cover without entering the tank.",
+        "Share the capacity and last emptying date, if known.",
+        "Describe overflow, slow drainage, or recurring problems."
+      ]
+    }
   },
   "sewer_drainage_cleaning": {
     "tag": "Sewer & Drainage Cleaning",
-    "title": "Clear Pipes, No Backups, No Surprises.",
-    "subtitle": "High-pressure drain jetting and sewer line clearing for homes, apartment buildings, and businesses — fast response when a blockage won't wait.",
-    "blurb": "Ageing pipes, tree roots, grease, and years of buildup are common causes of blocked drains and sewer lines across the region's older housing stock and town centers. Instead of masking the problem, we clear the line completely using high-pressure water jetting and camera inspection, so water flows the way it should and the same blockage doesn't return next month.",
-    "features_heading": "What's included in every callout",
-    "cta_heading": "Dealing with a blocked drain or slow sewer line?",
-    "cta_body": "From a single clogged kitchen drain to a full building's sewer main, we bring the right equipment to diagnose the blockage and clear it the same day.",
+    "title": "Get your drains flowing again.",
+    "subtitle": "Drain and sewer unblocking for homes, shared residential buildings, and commercial properties.",
+    "blurb": "Slow drainage and wastewater backing up can have different causes. Tell us which drains are affected, whether the problem is recurring, and where the access points are. We discuss the suitable clearing method and scope before the visit. Cleaning removes obstructions; a damaged pipe may need separate repair.",
+    "features_heading": "A clear plan for blocked drains",
+    "cta_heading": "Tell us where the blockage is.",
+    "cta_body": "Share the location, affected drains, and symptoms. For active wastewater backups, call us to discuss the problem and availability.",
     "features": [
-      { "title": "High-Pressure Water Jetting", "description": "We blast away grease, sludge, and debris from the inside of the pipe, clearing the full diameter rather than just punching a hole through the clog." },
-      { "title": "CCTV Pipe Inspection",        "description": "A camera run through the line shows us exactly where the blockage or damage is, so we fix the real problem instead of guessing." },
-      { "title": "Emergency Callouts",          "description": "Sewage backups don't wait for business hours. We prioritize urgent blockages and burst lines to limit damage to your property." },
-      { "title": "Residential & Municipal Lines", "description": "From household drains to shared sewer mains for apartment blocks and small municipalities, our equipment scales to the size of the line." }
+      {
+        "title": "High-pressure water cleaning",
+        "description": "Water jetting clears grease, sludge, and other deposits, with the method selected for the pipe and obstruction."
+      },
+      {
+        "title": "Grease and sediment buildup",
+        "description": "Discuss cleaning for deposits that restrict flow in household or commercial drainage systems."
+      },
+      {
+        "title": "Shared and commercial drains",
+        "description": "Coordinate access for apartment buildings, workplaces, and other properties with shared drainage."
+      },
+      {
+        "title": "Recurring drainage problems",
+        "description": "Describe previous blockages so we can discuss cleaning and whether further investigation or repair is needed."
+      }
+    ],
+    "preparation": {
+      "heading": "Before contacting the team",
+      "items": [
+        "List the drains affected and when the problem began.",
+        "Tell us about manholes and other accessible points.",
+        "Mention previous clearing work or known pipe damage."
+      ]
+    }
+  },
+  "house_cleaning": {
+    "tag": "House Cleaning",
+    "title": "A cleaner home, with a clear plan.",
+    "subtitle": "One-off and recurring home cleaning, with the rooms, priorities, and visit agreed around your needs.",
+    "blurb": "Whether you need help with everyday cleaning or a more thorough visit, start with the areas that matter most. We agree the rooms, surfaces, and tasks before booking. For a move or renovation, describe the condition of the property so cleaning can be planned separately from any bulky waste or rubble removal.",
+    "features_heading": "Cleaning matched to your home",
+    "cta_heading": "Plan your next cleaning visit.",
+    "cta_body": "Tell us your location, approximate floor area, and priorities. We will discuss the scope and an available appointment.",
+    "features": [
+      {
+        "title": "One-off thorough cleaning",
+        "description": "Agree the rooms and tasks for a more detailed clean, including areas that need extra attention."
+      },
+      {
+        "title": "Recurring home cleaning",
+        "description": "Discuss a repeat schedule for the everyday cleaning tasks your home needs."
+      },
+      {
+        "title": "Moving and renovation cleaning",
+        "description": "Plan cleaning for an empty home or after renovation, with dust and surface condition discussed first."
+      },
+      {
+        "title": "Agreed priorities",
+        "description": "Confirm surfaces, access, supplies, and any special instructions before the team arrives."
+      }
+    ],
+    "preparation": {
+      "heading": "Help us plan the visit",
+      "items": [
+        "Share the floor area and number of rooms.",
+        "List priority tasks and any delicate surfaces.",
+        "Mention renovation dust or items needing separate removal."
+      ]
+    }
+  },
+  "service_ui": {
+    "quote": "Get a Quote",
+    "service": "Service",
+    "talk": "Let’s talk",
+    "preparation_tag": "Plan your service",
+    "contact_hint": "Share your location and a few details so we can discuss the right service.",
+    "image_alt": "Eco Living —",
+    "placeholder": "Service photo"
+  },
+  "container_guide": {
+    "heading": "A guide to common container sizes",
+    "intro": "These capacities are used by local waste operators. Choose around the materials, weight, and space at your site; confirm the available unit before booking.",
+    "capacity_label": "Capacity",
+    "dimensions_label": "Example dimensions · L × W × H",
+    "use_label": "Typical use",
+    "note": "Dimensions may vary by container model. Confirm the space needed for delivery when booking.",
+    "pickup_rows": [
+      {
+        "capacity": "120 L",
+        "dimensions": "0.48 × 0.56 × 0.95 m",
+        "use": "Smaller household collection points"
+      },
+      {
+        "capacity": "240 L",
+        "dimensions": "0.58 × 0.73 × 1.08 m",
+        "use": "Larger household collection points"
+      },
+      {
+        "capacity": "1,100 L · 1.1 m³",
+        "dimensions": "1.37 × 1.07 × 1.34 m",
+        "use": "Shared residential and commercial collection"
+      }
+    ],
+    "rental_rows": [
+      {
+        "capacity": "1,100 L · 1.1 m³",
+        "dimensions": "1.37 × 1.07 × 1.34 m",
+        "use": "Shared or commercial collection points"
+      },
+      {
+        "capacity": "5 m³",
+        "dimensions": "≈ 3.3 × 1.6–1.7 × 1.3–1.5 m",
+        "use": "Project waste, subject to material and load limits"
+      },
+      {
+        "capacity": "7 m³",
+        "dimensions": "≈ 3.5 × 1.6–1.7 × 1.5 m",
+        "use": "Larger project volumes, subject to load limits"
+      }
     ]
   }
 }

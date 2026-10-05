@@ -1,7 +1,6 @@
 "use client";
 
-import { useRef } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 import SectionTag from "@/components/ui/SectionTag";
 import Button from "@/components/ui/Button";
 import { useI18n } from "@/lib/i18n";
@@ -29,23 +28,16 @@ function FadeUp({
 }
 
 export default function AboutBlock() {
-  const sectionRef = useRef<HTMLElement>(null);
   const { t } = useI18n();
 
-  const { scrollYProgress } = useScroll({
-    target: sectionRef,
-    offset: ["start end", "end start"],
-  });
-  const bgY = useTransform(scrollYProgress, [0, 1], ["-10%", "10%"]);
 
   return (
     <section
-      ref={sectionRef}
       className="relative bg-[#f4f3ea] overflow-hidden py-32 px-6 md:px-12 lg:px-20"
     >
-      <motion.div
-        style={{ y: bgY }}
-        className="pointer-events-none absolute -right-40 top-20 w-[600px] h-[600px] rounded-full bg-[#b6e400]/8 blur-[120px]"
+      <div
+        className="pointer-events-none absolute -right-40 top-20 w-[600px] h-[600px] rounded-full"
+        style={{ background: "radial-gradient(circle, rgb(182 228 0 / 0.08), transparent 70%)" }}
       />
 
       <div className="relative mx-auto max-w-6xl">
