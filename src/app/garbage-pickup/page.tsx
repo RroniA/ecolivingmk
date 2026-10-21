@@ -30,6 +30,7 @@ export default function GarbagePickupPage() {
 
   return (
     <ServicePage
+      gallery="pickup"
       tag={d.tag}
       title={d.title}
       subtitle={d.subtitle}
@@ -38,7 +39,8 @@ export default function GarbagePickupPage() {
       features={features}
       preparation={d.preparation}
       containerGuide="pickup"
-      imageSrc="/images/garbage-pickup.jpg"
+      imageAlt={d.image_alt}
+      imageSrc="/images/garbage-pickup-europe.webp"
       ctaHeading={d.cta_heading}
       ctaBody={d.cta_body}
     />

@@ -30,6 +30,7 @@ export default function HouseDemolitionPage() {
 
   return (
     <ServicePage
+      gallery="demolition"
       tag={d.tag}
       title={d.title}
       subtitle={d.subtitle}

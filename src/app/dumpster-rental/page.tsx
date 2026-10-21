@@ -30,6 +30,7 @@ export default function DumpsterRentalPage() {
 
   return (
     <ServicePage
+      gallery="rental"
       tag={d.tag}
       title={d.title}
       subtitle={d.subtitle}

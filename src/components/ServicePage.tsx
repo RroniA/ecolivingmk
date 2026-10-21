@@ -5,6 +5,8 @@ import { useRef } from "react";
 import { useScroll, useTransform } from "framer-motion";
 import SectionTag from "@/components/ui/SectionTag";
 import Button from "@/components/ui/Button";
+import WorkGallery from "@/components/WorkGallery";
+import type { GalleryKind } from "@/lib/gallery";
 import ContainerSizeGuide from "@/components/ContainerSizeGuide";
 import { useI18n } from "@/lib/i18n";
 
@@ -26,6 +28,7 @@ export interface ServicePageProps {
   ctaBody: string;
   imageSrc?: string;
   imageAlt?: string;
+  gallery?: GalleryKind;
   preparation: { heading: string; items: string[] };
   containerGuide?: "pickup" | "rental";
 }
@@ -143,7 +146,7 @@ function ContactForm() {
 
 export default function ServicePage({
   tag, title, subtitle, blurb, featuresHeading, features,
-  ctaHeading, ctaBody, imageSrc, imageAlt, preparation, containerGuide,
+  ctaHeading, ctaBody, imageSrc, imageAlt, preparation, containerGuide, gallery,
 }: ServicePageProps) {
   const { t } = useI18n();
   const ui = t.service_ui;
@@ -229,6 +232,8 @@ export default function ServicePage({
           </ol>
         </div>
       </section>
+
+      {gallery && <WorkGallery kind={gallery} />}
 
       {/* CONTACT CTA */}
       <section className="px-6 md:px-12 lg:px-20 py-24 border-t border-[#ddddd2]">

@@ -12,7 +12,8 @@
     "watch_video": "Watch video",
     "happy_clients": "Happy clients",
     "companies": "Companies",
-    "scroll": "Scroll"
+    "scroll": "Scroll",
+    "loading_video": "Loading video"
   },
   "about": {
     "tag": "Green Energy Revolution",
@@ -97,7 +98,7 @@
       }
     ],
     "services_label": "What we offer",
-    "services_heading": "Six services for homes and businesses.",
+    "services_heading": "Seven services for homes and businesses.",
     "services_cta": "Get a Quote",
     "services": [
       {
@@ -135,6 +136,12 @@
         "title": "House Cleaning",
         "body": "One-off and recurring home cleaning, with the rooms, priorities, and visit agreed around your needs.",
         "link": "View Details →"
+      },
+      {
+        "href": "/bulky-waste-collection",
+        "title": "Bulky Waste Collection",
+        "body": "Collection and transport of old furniture and large unwanted household items, arranged around your property and access.",
+        "link": "View Details →"
       }
     ],
     "cta_label": "Ready to start?",
@@ -169,6 +176,7 @@
       "Septic Tank Emptying & Cleaning",
       "Sewer & Drainage Cleaning",
       "House Cleaning",
+      "Bulky Waste Collection",
       "Other"
     ],
     "send": "Send Message",
@@ -183,7 +191,7 @@
   "services": {
     "tag": "What We Offer",
     "heading": "Our Best Solutions",
-    "subtitle": "Waste collection, container rental, demolition, septic services, drain cleaning, and home cleaning from one local team.",
+    "subtitle": "Waste collection, bulky item removal, container rental, demolition, septic services, drain cleaning, and home cleaning from one local team.",
     "view_details": "View Details",
     "label": "Services",
     "items": [
@@ -210,6 +218,10 @@
       {
         "title": "House Cleaning",
         "description": "One-off and recurring home cleaning, with the rooms, priorities, and visit agreed around your needs."
+      },
+      {
+        "title": "Bulky Waste Collection",
+        "description": "Collection and transport of old furniture and large unwanted household items, arranged around your property and access."
       }
     ]
   },
@@ -233,7 +245,7 @@
   },
   "map": {
     "tag": "Overview Projects",
-    "heading": "We Completed Waste Management Across 3 Regions",
+    "heading": "Local service. A clearer view.",
     "stats": [
       {
         "value": "10+",
@@ -248,7 +260,20 @@
         "label": "Regions Covered"
       }
     ],
-    "hq": "HQ"
+    "hq": "HQ",
+    "description": "Our service locations in western North Macedonia. Select a town to highlight it, or switch to the country overview.",
+    "focus": "Service area",
+    "overview": "Country overview",
+    "map_alt": "Map of Gostivar, Chegrane, Brvenitsa and Želino in western North Macedonia",
+    "map_note": "Town locations are approximate. Confirm service availability for your address.",
+    "locations": "Where we work",
+    "check_address": "Check your address",
+    "places": {
+      "gostivar": "Gostivar",
+      "chegrane": "Chegrane",
+      "brvenitsa": "Brvenitsa",
+      "zelino": "Želino"
+    }
   },
   "partners": {
     "tag": "Trusted Partners",
@@ -288,7 +313,8 @@
         "Describe the waste and how often it accumulates.",
         "Tell us where the collection vehicle can stop."
       ]
-    }
+    },
+    "image_alt": "AI illustration of a European waste collection truck on a residential street."
   },
   "dumpster_rental": {
     "tag": "Waste Container Rental",
@@ -515,5 +541,64 @@
         "use": "Larger project volumes, subject to load limits"
       }
     ]
+  },
+  "bulky_waste_collection": {
+    "tag": "Bulky Waste Collection",
+    "title": "Clear the clutter. Reclaim your space.",
+    "subtitle": "Collection and transport of old furniture and large unwanted household items, arranged around your property and access.",
+    "blurb": "An old sofa, a worn-out mattress, or a room full of unwanted furniture can take up valuable space. Eco Living helps you arrange collection and transport of bulky waste from homes and business premises. Send us a list or photos of the items so we can agree the load, access, and pickup arrangements before the visit.",
+    "features_heading": "A practical way to remove bulky items",
+    "cta_heading": "What would you like us to collect?",
+    "cta_body": "Share your location, photos or a list of items, and where they are stored. We will discuss access, the collection arrangements, and an available date.",
+    "features": [
+      {
+        "title": "Furniture and large items",
+        "description": "Arrange collection of sofas, armchairs, tables, wardrobes, mattresses, and similar items that do not fit in a regular waste bin."
+      },
+      {
+        "title": "Collection and transport",
+        "description": "We plan vehicle access and transport for the agreed items. Confirm the collection point and any loading assistance needed when booking."
+      },
+      {
+        "title": "Home and business clearouts",
+        "description": "Make space during a move, furniture replacement, or property clearout, with the items and quantities agreed beforehand."
+      },
+      {
+        "title": "Clear booking arrangements",
+        "description": "Tell us about stairs, narrow doorways, or items needing dismantling. Appliances, building rubble, and specialist waste should be discussed separately."
+      }
+    ],
+    "preparation": {
+      "heading": "Before your collection",
+      "items": [
+        "Send photos or a list of the items and their approximate sizes.",
+        "Tell us about the floor, stairs, lift, and vehicle access.",
+        "Agree where the items will be collected and any help needed to move them."
+      ]
+    },
+    "image_alt": "AI-generated illustration of workers collecting an old sofa beside a waste collection truck."
+  },
+  "work_gallery": {
+    "tag": "ON THE JOB",
+    "carousel": "carousel",
+    "slide": "slide",
+    "previous": "Previous photo",
+    "next": "Next photo",
+    "intro": "A closer look at collection, container loading and site cleanup, in photos from our team.",
+    "headings": {
+      "home": "Everyday work. Real care.",
+      "pickup": "Collection, in practice.",
+      "rental": "Containers on the job.",
+      "demolition": "Clearing the site, step by step."
+    },
+    "captions": {
+      "collection": "Collection crew moving a wheeled bin to the truck.",
+      "lifting": "A wheeled bin being emptied into the collection truck.",
+      "containers": "Waste containers ready in the yard.",
+      "skip": "Loading timber into an open skip on site.",
+      "timber": "Collecting loose timber and construction debris.",
+      "bags": "Bagging loose material during site cleanup.",
+      "sweeping": "Sweeping a concrete surface at a construction site."
+    }
   }
 }

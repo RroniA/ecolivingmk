@@ -7,12 +7,13 @@ import SectionTag from "@/components/ui/SectionTag";
 import { useI18n } from "@/lib/i18n";
 
 const servicesMeta = [
-  { index: "01", href: "/garbage-pickup",           color: "#1a1a17", accent: "#b6e400", imageSrc: "/images/garbage-pickup.jpg"   },
+  { index: "01", href: "/garbage-pickup",           color: "#1a1a17", accent: "#b6e400", imageSrc: "/images/garbage-pickup-europe.webp"   },
   { index: "02", href: "/dumpster-rental",          color: "#232320", accent: "#b6e400", imageSrc: "/images/dumpster-rental.jpg"  },
   { index: "03", href: "/house-demolition",         color: "#2a2a25", accent: "#b6e400", imageSrc: "/images/house-demolition.jpg" },
   { index: "04", href: "/septic-tank-cleaning",     color: "#302f29", accent: "#b6e400", imageSrc: "/images/septic-tank-cleaning.jpg" },
   { index: "05", href: "/sewer-drainage-cleaning",  color: "#373630", accent: "#b6e400", imageSrc: "/images/sewer-drainage-cleaning.jpg" },
-    { index: "06", href: "/house-cleaning",           color: "#3d3c35", accent: "#b6e400", imageSrc: "/images/house-cleaning.jpg" },
+  { index: "06", href: "/house-cleaning",           color: "#3d3c35", accent: "#b6e400", imageSrc: "/images/house-cleaning.jpg" },
+  { index: "07", href: "/bulky-waste-collection", color: "#434239", accent: "#b6e400", imageSrc: "/images/bulky-waste-collection.webp" },
 ];
 
 interface CardProps {
@@ -138,7 +139,7 @@ export default function Services() {
           </p>
         </div>
 
-        <div ref={containerRef} className="flex flex-col gap-4">
+        <div ref={containerRef} className="relative flex flex-col gap-4">
           {t.services.items.map((item, i) => {
             const meta = servicesMeta[i];
             const targetScale = 1 - (t.services.items.length - i - 1) * 0.07;

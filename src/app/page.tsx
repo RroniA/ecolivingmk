@@ -1,3 +1,4 @@
+import WorkGallery from "@/components/WorkGallery";
 import Hero from "@/components/sections/Hero";
 import AboutBlock from "@/components/sections/AboutBlock";
 import Services from "@/components/sections/Services";
@@ -11,7 +12,7 @@ export default function HomePage() {
       <div className="relative z-10 w-full">
         <AboutBlock />
         <Services />
-        {/*<Projects />*/}
+        <WorkGallery />
         <Partners />
         <MapRegions />
       

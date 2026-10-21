@@ -11,7 +11,8 @@ const serviceLinks = [
   { label: "House Demolition",        href: "/house-demolition"        },
   { label: "Septic Tank Cleaning",    href: "/septic-tank-cleaning"    },
   { label: "Sewer & Drainage Cleaning", href: "/sewer-drainage-cleaning" },
-    { label: "House Cleaning",          href: "/house-cleaning"          },
+  { label: "House Cleaning",          href: "/house-cleaning"          },
+  { label: "Bulky Waste Collection", href: "/bulky-waste-collection" },
 ];
 
 export default function Navbar() {
@@ -113,7 +114,7 @@ function NavbarMenu({ pathname }: { pathname: string }) {
                 className="flex items-center gap-1 px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200 hover:bg-black/[0.06]"
                 style={{
                   fontFamily: "var(--font-body)",
-                  color: pathname.includes("garbage") || pathname.includes("dumpster") || pathname.includes("demolition") || pathname.includes("septic") || pathname.includes("sewer")  || pathname.includes("house-cleaning") ? "#1a1a17" : "#7a7a6e",
+                  color: serviceLinks.some((link) => pathname === link.href) ? "#1a1a17" : "#7a7a6e",
                 }}
               >
                 Services

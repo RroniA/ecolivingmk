@@ -12,7 +12,8 @@
     "watch_video": "Shiko videon",
     "happy_clients": "Klientë të kënaqur",
     "companies": "Kompani",
-    "scroll": "Rrëshqit"
+    "scroll": "Rrëshqit",
+    "loading_video": "Videoja po ngarkohet"
   },
   "about": {
     "tag": "Revolucioni i Energjisë së Gjelbër",
@@ -97,7 +98,7 @@
       }
     ],
     "services_label": "Çfarë ofrojmë",
-    "services_heading": "Gjashtë shërbime për shtëpi dhe biznese.",
+    "services_heading": "Shtatë shërbime për shtëpi dhe biznese.",
     "services_cta": "Kërko një Ofertë",
     "services": [
       {
@@ -135,6 +136,12 @@
         "title": "Pastrim shtëpish",
         "body": "Pastrim i njëhershëm ose i rregullt i shtëpisë, me dhomat, përparësitë dhe vizitën të dakorduara sipas nevojave tuaja.",
         "link": "Shiko Detajet →"
+      },
+      {
+        "href": "/bulky-waste-collection",
+        "title": "Grumbullim i mbetjeve voluminoze",
+        "body": "Grumbullim dhe transport i mobilieve të vjetra dhe sendeve të mëdha shtëpiake, sipas pronës dhe mundësive të hyrjes.",
+        "link": "Shiko Detajet →"
       }
     ],
     "cta_label": "Gati për të filluar?",
@@ -169,6 +176,7 @@
       "Zbrazje dhe pastrim gropash septike",
       "Pastrim kanalizimesh dhe shkarkimesh",
       "Pastrim shtëpish",
+      "Grumbullim i mbetjeve voluminoze",
       "Tjetër"
     ],
     "send": "Dërgo Mesazhin",
@@ -183,7 +191,7 @@
   "services": {
     "tag": "Çfarë Ofrojmë",
     "heading": "Zgjidhjet Tona Më të Mira",
-    "subtitle": "Grumbullim mbetjesh, kontejnerë me qira, prishje ndërtesash, shërbime septike, pastrim kanalizimesh dhe shtëpish nga një ekip lokal.",
+    "subtitle": "Grumbullim mbetjesh, largim sendesh voluminoze, kontejnerë me qira, prishje ndërtesash, shërbime septike, pastrim kanalizimesh dhe shtëpish nga një ekip lokal.",
     "view_details": "Shiko Detajet",
     "label": "Shërbime",
     "items": [
@@ -210,6 +218,10 @@
       {
         "title": "Pastrim shtëpish",
         "description": "Pastrim i njëhershëm ose i rregullt i shtëpisë, me dhomat, përparësitë dhe vizitën të dakorduara sipas nevojave tuaja."
+      },
+      {
+        "title": "Grumbullim i mbetjeve voluminoze",
+        "description": "Grumbullim dhe transport i mobilieve të vjetra dhe sendeve të mëdha shtëpiake, sipas pronës dhe mundësive të hyrjes."
       }
     ]
   },
@@ -233,7 +245,7 @@
   },
   "map": {
     "tag": "Vështrim i Projekteve",
-    "heading": "Kemi Përfunduar Menaxhimin e Mbeturinave në 3 Rajone",
+    "heading": "Shërbim lokal. Më pranë jush.",
     "stats": [
       {
         "value": "10+",
@@ -248,7 +260,20 @@
         "label": "Rajone të Mbuluara"
       }
     ],
-    "hq": "Selia Qendrore"
+    "hq": "Selia Qendrore",
+    "description": "Vendndodhjet ku shërbejmë në Maqedoninë e Veriut perëndimore. Zgjidhni një vend për ta theksuar ose shikoni hartën e shtetit.",
+    "focus": "Zona e shërbimit",
+    "overview": "Harta e shtetit",
+    "map_alt": "Harta e Gostivarit, Çegranit, Bërvenicës dhe Zhelinës në Maqedoninë e Veriut perëndimore",
+    "map_note": "Vendndodhjet janë të përafërta. Konfirmoni disponueshmërinë e shërbimit për adresën tuaj.",
+    "locations": "Ku punojmë",
+    "check_address": "Kontrolloni adresën tuaj",
+    "places": {
+      "gostivar": "Gostivar",
+      "chegrane": "Çegran",
+      "brvenitsa": "Bërvenicë",
+      "zelino": "Zhelinë"
+    }
   },
   "partners": {
     "tag": "Partnerë të Besuar",
@@ -288,7 +313,8 @@
         "Përshkruani mbetjet dhe sa shpesh grumbullohen.",
         "Na tregoni ku mund të ndalojë automjeti."
       ]
-    }
+    },
+    "image_alt": "Ilustrim me AI i një kamioni evropian për mbledhjen e mbeturinave në një rrugë banimi."
   },
   "dumpster_rental": {
     "tag": "Kontejnerë mbetjesh me qira",
@@ -515,5 +541,64 @@
         "use": "Vëllime më të mëdha projekti, sipas kufirit të ngarkesës"
       }
     ]
+  },
+  "bulky_waste_collection": {
+    "tag": "Grumbullim i mbetjeve voluminoze",
+    "title": "Largoni sendet e panevojshme. Lironi hapësirën.",
+    "subtitle": "Grumbullim dhe transport i mobilieve të vjetra dhe sendeve të mëdha shtëpiake, sipas pronës dhe mundësive të hyrjes.",
+    "blurb": "Një divan i vjetër, një dyshek i konsumuar apo një dhomë plot mobilie të panevojshme zënë hapësirë të vlefshme. Eco Living ju ndihmon të organizoni grumbullimin dhe transportin e mbetjeve voluminoze nga shtëpitë dhe ambientet e biznesit. Na dërgoni një listë ose foto të sendeve që të përcaktojmë ngarkesën, hyrjen dhe mënyrën e marrjes para vizitës.",
+    "features_heading": "Një mënyrë praktike për largimin e sendeve të mëdha",
+    "cta_heading": "Çfarë dëshironi të largoni?",
+    "cta_body": "Dërgoni vendndodhjen, foto ose një listë të sendeve dhe vendin ku ndodhen. Do të diskutojmë hyrjen, organizimin e marrjes dhe një datë të disponueshme.",
+    "features": [
+      {
+        "title": "Mobilie dhe sende të mëdha",
+        "description": "Organizoni largimin e divaneve, kolltukëve, tavolinave, dollapëve, dyshekëve dhe sendeve të ngjashme që nuk futen në koshin e zakonshëm."
+      },
+      {
+        "title": "Grumbullim dhe transport",
+        "description": "Planifikojmë hyrjen e automjetit dhe transportin e sendeve të dakorduara. Konfirmoni pikën e marrjes dhe ndihmën e nevojshme për ngarkim gjatë rezervimit."
+      },
+      {
+        "title": "Lirim shtëpish dhe ambientesh biznesi",
+        "description": "Lironi hapësirë gjatë zhvendosjes, ndërrimit të mobilieve ose zbrazjes së pronës, me sendet dhe sasitë të përcaktuara paraprakisht."
+      },
+      {
+        "title": "Organizim i qartë",
+        "description": "Na tregoni për shkallët, dyert e ngushta ose sendet që duhen çmontuar. Pajisjet elektroshtëpiake, inertet dhe mbetjet e veçanta diskutohen veçmas."
+      }
+    ],
+    "preparation": {
+      "heading": "Para marrjes së sendeve",
+      "items": [
+        "Dërgoni foto ose listën e sendeve me përmasat e përafërta.",
+        "Tregoni katin, shkallët, ashensorin dhe hyrjen e automjetit.",
+        "Përcaktoni pikën e marrjes dhe ndihmën e nevojshme për lëvizjen e sendeve."
+      ]
+    },
+    "image_alt": "Ilustrim i gjeneruar me AI i punonjësve që mbledhin një divan të vjetër pranë një kamioni."
+  },
+  "work_gallery": {
+    "tag": "NË TERREN",
+    "carousel": "galeri me rrëshqitje",
+    "slide": "fotografi",
+    "previous": "Fotografia e mëparshme",
+    "next": "Fotografia tjetër",
+    "intro": "Mbledhja e mbeturinave, ngarkimi i kontejnerëve dhe pastrimi i kantierit, në fotografi nga ekipi ynë.",
+    "headings": {
+      "home": "Punë e përditshme. Kujdes i vërtetë.",
+      "pickup": "Mbledhja e mbeturinave në praktikë.",
+      "rental": "Kontejnerë në terren.",
+      "demolition": "Pastrimi i kantierit, hap pas hapi."
+    },
+    "captions": {
+      "collection": "Ekipi lëviz një kontejner me rrota drejt kamionit.",
+      "lifting": "Zbrazja e një kontejneri me rrota në kamionin e mbeturinave.",
+      "containers": "Kontejnerë mbeturinash të gatshëm në oborr.",
+      "skip": "Ngarkimi i drurit në një kontejner të hapur në kantier.",
+      "timber": "Mbledhja e drurit dhe mbetjeve të ndërtimit.",
+      "bags": "Mbushja e thasëve me mbetje gjatë pastrimit të kantierit.",
+      "sweeping": "Fshirja e një sipërfaqeje betoni në kantier."
+    }
   }
 }

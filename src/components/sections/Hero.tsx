@@ -2,6 +2,9 @@
 
 import { useState, useEffect, useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { Ring } from "ldrs/react";
+import "ldrs/react/Ring.css";
+import { preload } from "react-dom";
 import Button from "@/components/ui/Button";
 import { useI18n } from "@/lib/i18n";
 
@@ -115,10 +118,18 @@ function GlassCard({ onPlay }: { onPlay: () => void }) {
 }
 
 export default function Hero() {
+  preload("/images/hero-poster.webp", { as: "image" });
   const [modalOpen, setModalOpen] = useState(false);
+  const [videoLoading, setVideoLoading] = useState(true);
   const videoRef = useRef<HTMLVideoElement>(null);
   const sectionRef = useRef<HTMLElement>(null);
   const { t } = useI18n();
+
+  useEffect(() => {
+    // Do not leave a spinner running indefinitely on a failed/blocked download.
+    const timeout = window.setTimeout(() => setVideoLoading(false), 12000);
+    return () => window.clearTimeout(timeout);
+  }, []);
 
   useEffect(() => {
     const video = videoRef.current;
@@ -127,17 +138,19 @@ export default function Hero() {
 
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
     let heroHeight = section.getBoundingClientRect().height;
-    let playing = false;
+    // Set the DOM property too: a muted HTML attribute alone is not sufficient
+    // for autoplay in every browser/hydration path.
+    video.muted = true;
     function syncPlayback() {
       // The sticky hero stays in the viewport even after opaque sections cover it.
       const shouldPlay = !document.hidden && !reducedMotion.matches && !modalOpen
         && window.scrollY < heroHeight;
-      if (shouldPlay === playing) return;
-      playing = shouldPlay;
-      if (shouldPlay) {
-        void video!.play().catch(() => { playing = false; });
+      if (shouldPlay && video!.paused) {
+        void video!.play().catch(() => {
+          // Keep the poster visible if the browser refuses autoplay.
+        });
       } else {
-        video!.pause();
+        if (!shouldPlay) video!.pause();
       }
     }
     function onResize() {
@@ -145,11 +158,13 @@ export default function Hero() {
       syncPlayback();
     }
     syncPlayback();
+    video.addEventListener("canplay", syncPlayback);
     window.addEventListener("scroll", syncPlayback, { passive: true });
     window.addEventListener("resize", onResize);
     document.addEventListener("visibilitychange", syncPlayback);
     reducedMotion.addEventListener("change", syncPlayback);
     return () => {
+      video.removeEventListener("canplay", syncPlayback);
       window.removeEventListener("scroll", syncPlayback);
       window.removeEventListener("resize", onResize);
       document.removeEventListener("visibilitychange", syncPlayback);
@@ -178,12 +193,18 @@ export default function Hero() {
           <video
             ref={videoRef}
             className="w-full h-full object-cover"
+            poster="/images/hero-poster.webp"
+            onPlaying={() => setVideoLoading(false)}
+            onLoadedData={() => setVideoLoading(false)}
+            onError={() => setVideoLoading(false)}
             muted loop playsInline preload="auto" aria-hidden="true"
           >
-            <source src={VIDEO_SRC} type="video/mp4" />
+            <source src={VIDEO_SRC} type="video/mp4" onError={() => setVideoLoading(false)} />
           </video>
           <div className="absolute inset-0 bg-gradient-to-r from-[#1a1a17]/85 via-[#1a1a17]/55 to-[#1a1a17]/25" />
         </div>
+
+        {videoLoading && <div role="status" className="pointer-events-none absolute bottom-6 right-6 z-20 flex items-center gap-3 rounded-full border border-white/15 bg-black/30 px-4 py-2 text-xs text-white/70 motion-reduce:hidden"><span aria-hidden="true"><Ring size={20} stroke={2} speed={1.2} color="#b6e400" /></span>{t.hero.loading_video}</div>}
 
         {/* CONTENT */}
         <motion.div
@@ -191,12 +212,7 @@ export default function Hero() {
           style={{ opacity: contentOpacity, y: contentY }}
         >
           <div className="mx-auto w-full max-w-6xl px-6 md:px-12 lg:px-20">
-            <div className="
-              flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8
-              pt-24 pb-8
-              md:pt-0 md:pb-0
-              lg:pt-0 lg:pb-0
-            ">
+            <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8 pt-24 pb-8 md:pt-0 md:pb-0 lg:pt-0 lg:pb-0">
 
               {/* LEFT — text */}
               <div className="flex flex-col gap-5 max-w-xl">
