@@ -52,8 +52,8 @@ export default function WorkGallery({ kind = "home" }: { kind?: GalleryKind }) {
             {items.map((key, index) => (
               <div key={key} role="group" aria-roledescription={copy.slide} aria-label={`${index + 1} / ${items.length}`} className="min-w-0 flex-[0_0_100%] pr-4 md:flex-[0_0_70%]">
                 <figure>
-                  <div className="relative h-[390px] overflow-hidden rounded-2xl bg-[#e5e4da] sm:h-[460px]">
-                    <Image src={`/images/gallery/${galleryImages[key]}.webp`} alt={copy.captions[key]} fill sizes="(max-width: 767px) 100vw, (max-width: 1280px) 70vw, 800px" className={key === "collection" || key === "lifting" ? "object-contain" : "object-cover"} />
+                  <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-[#e5e4da] sm:aspect-[4/3]">
+                    <Image src={`/images/gallery/${galleryImages[key]}.webp`} alt={copy.captions[key]} fill sizes="(max-width: 767px) 100vw, (max-width: 1280px) 70vw, 800px" className="object-cover" style={{ objectPosition: key === "collection" ? "55% 48%" : key === "lifting" ? "50% 35%" : "50% 50%" }} />
                   </div>
                   <figcaption className="flex gap-4 py-5 text-sm leading-relaxed"><span aria-hidden="true" className="text-[#7a7a6e]">{String(index + 1).padStart(2, "0")}</span>{copy.captions[key]}</figcaption>
                 </figure>

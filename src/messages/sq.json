@@ -244,8 +244,8 @@
     ]
   },
   "map": {
-    "tag": "Vështrim i Projekteve",
-    "heading": "Shërbim lokal. Më pranë jush.",
+    "tag": "ZONA JONË E SHËRBIMIT",
+    "heading": "Pranë jush, kur keni nevojë.",
     "stats": [
       {
         "value": "10+",
@@ -261,7 +261,7 @@
       }
     ],
     "hq": "Selia Qendrore",
-    "description": "Vendndodhjet ku shërbejmë në Maqedoninë e Veriut perëndimore. Zgjidhni një vend për ta theksuar ose shikoni hartën e shtetit.",
+    "description": "Mbledhje mbeturinash dhe pastrim në Gostivar dhe vendbanimet përreth. Shikoni vendet ku ofrojmë shërbime.",
     "focus": "Zona e shërbimit",
     "overview": "Harta e shtetit",
     "map_alt": "Harta e Gostivarit, Çegranit, Bërvenicës dhe Zhelinës në Maqedoninë e Veriut perëndimore",
@@ -273,7 +273,13 @@
       "chegrane": "Çegran",
       "brvenitsa": "Bërvenicë",
       "zelino": "Zhelinë"
-    }
+    },
+    "show_all": "Shfaq të gjitha vendet",
+    "loading": "Harta po ngarkohet…",
+    "zoom_in": "Zmadho",
+    "zoom_out": "Zvogëlo",
+    "unavailable": "Harta nuk mund të ngarkohej.",
+    "open_map": "Hap hartën e plotë"
   },
   "partners": {
     "tag": "Partnerë të Besuar",

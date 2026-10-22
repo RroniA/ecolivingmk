@@ -244,8 +244,8 @@
     ]
   },
   "map": {
-    "tag": "Overview Projects",
-    "heading": "Local service. A clearer view.",
+    "tag": "OUR SERVICE AREA",
+    "heading": "Here, when you need us.",
     "stats": [
       {
         "value": "10+",
@@ -261,7 +261,7 @@
       }
     ],
     "hq": "HQ",
-    "description": "Our service locations in western North Macedonia. Select a town to highlight it, or switch to the country overview.",
+    "description": "Waste collection and cleanup across Gostivar and the surrounding communities. Explore the places we serve.",
     "focus": "Service area",
     "overview": "Country overview",
     "map_alt": "Map of Gostivar, Chegrane, Brvenitsa and Želino in western North Macedonia",
@@ -273,7 +273,13 @@
       "chegrane": "Chegrane",
       "brvenitsa": "Brvenitsa",
       "zelino": "Želino"
-    }
+    },
+    "show_all": "Show all locations",
+    "loading": "Loading service area…",
+    "zoom_in": "Zoom in",
+    "zoom_out": "Zoom out",
+    "unavailable": "The map could not load.",
+    "open_map": "Open full map"
   },
   "partners": {
     "tag": "Trusted Partners",

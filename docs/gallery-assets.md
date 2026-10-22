@@ -1,6 +1,6 @@
 # Website photographs
 
-Seven client-supplied originals selected. Original files in public/gallery are preserved. Web copies are orientation-corrected and encoded as WebP; no generative edits were made. Portraits use contain to preserve workers and equipment. No locations or equipment capacities are inferred.
+Seven client-supplied originals selected. Original files in public/gallery are preserved. Web copies are orientation-corrected and encoded as WebP; no generative edits were made. All gallery images fill their frames with object-cover. Collection and lifting photos have individual focal points; frames are 4:5 on phones and 4:3 on larger screens. No locations or equipment capacities are inferred.
 
 - collection-crew.webp ← 26867d10-e392-4153-96a4-d27f7417c014.JPG
 - bin-collection.webp ← 5e11b733-f8bb-4209-a159-5e75a6cc5208.JPG

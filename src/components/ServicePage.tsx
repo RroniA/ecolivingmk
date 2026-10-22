@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { useRef } from "react";
 import { useScroll, useTransform } from "framer-motion";
 import SectionTag from "@/components/ui/SectionTag";
@@ -60,19 +61,15 @@ function ParallaxImage({ src, alt }: { src: string; alt: string }) {
 
   return (
     /*
-      aspect-square on mobile → natural 16/9 on md and up.
-      This prevents the tall portrait crop on small screens.
+      A landscape frame on mobile keeps service equipment visible.
     */
     <div
       ref={ref}
-      className="relative w-full overflow-hidden rounded-2xl aspect-square md:aspect-auto md:h-[560px]"
+      className="relative w-full overflow-hidden rounded-2xl aspect-[4/3] md:aspect-auto md:h-[560px]"
     >
-      <motion.img
-        src={src}
-        alt={alt}
-        style={{ y }}
-        className="absolute inset-0 h-[116%] w-full -top-[8%] object-cover"
-      />
+      <motion.div style={{ y }} className="absolute inset-0 -top-[8%] h-[116%] w-full">
+        <Image src={src} alt={alt} fill sizes="(max-width: 1280px) 100vw, 1152px" className="object-cover" />
+      </motion.div>
       <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-black/10" />
     </div>
   );

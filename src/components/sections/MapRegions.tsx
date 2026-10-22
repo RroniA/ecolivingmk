@@ -1,59 +1,53 @@
 "use client";
 
-import { useState } from "react";
-import { ComposableMap, Geographies, Geography, Marker, createCoordinates } from "@vnedyalk0v/react19-simple-maps";
-import type { GeographyProps } from "@vnedyalk0v/react19-simple-maps";
-import boundary from "@/data/north-macedonia.json";
+import { useCallback, useEffect, useRef, useState } from "react";
+import dynamic from "next/dynamic";
+import Link from "next/link";
 import SectionTag from "@/components/ui/SectionTag";
 import { useI18n } from "@/lib/i18n";
+import { serviceLocations, type ServiceLocationId } from "@/lib/service-locations";
 
-const places = [
-  { id: "gostivar", coordinates: createCoordinates(20.917, 41.8), left: true },
-  { id: "chegrane", coordinates: createCoordinates(20.97438, 41.83722), left: false },
-  { id: "brvenitsa", coordinates: createCoordinates(20.9808, 41.9672), left: true },
-  { id: "zelino", coordinates: createCoordinates(21.0642, 41.9803), left: false },
-] as const;
+const RegionalMap = dynamic(() => import("@/components/RegionalMap"), { ssr: false });
 
 export default function MapRegions() {
   const { t } = useI18n();
   const copy = t.map;
-  const [overview, setOverview] = useState(false);
-  const [active, setActive] = useState<string>("gostivar");
+  const section = useRef<HTMLElement>(null);
+  const [visible, setVisible] = useState(false);
+  const [active, setActive] = useState<ServiceLocationId | null>(null);
+  const [resetToken, setResetToken] = useState(0);
+  const select = useCallback((id: ServiceLocationId) => setActive(id), []);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) { setVisible(true); observer.disconnect(); }
+    }, { rootMargin: "300px" });
+    if (section.current) observer.observe(section.current);
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <section className="relative z-10 overflow-hidden bg-[#1a1a17] px-6 py-24 text-[#f4f3ea] md:px-12 lg:px-20" aria-labelledby="coverage-heading">
+    <section ref={section} className="relative z-10 bg-[#1a1a17] px-6 py-20 text-[#f4f3ea] md:px-12 lg:px-20" aria-labelledby="coverage-heading">
       <div className="mx-auto max-w-6xl">
-        <SectionTag text={copy.tag} />
-        <h2 id="coverage-heading" className="mt-5 max-w-2xl font-display text-[clamp(2rem,4.5vw,3.2rem)] font-light leading-tight">{copy.heading}</h2>
-        <p className="mt-5 max-w-xl leading-relaxed text-white/60">{copy.description}</p>
-        <div className="mt-10 grid overflow-hidden rounded-2xl border border-white/10 lg:grid-cols-[1fr_280px]">
-          <div className="relative min-w-0 bg-[#101410]">
-            <div className="absolute left-4 top-4 z-10 flex flex-wrap gap-2">
-              {[false,true].map(value=><button key={String(value)} type="button" aria-pressed={overview===value} onClick={() => setOverview(value)} className={`rounded-full border px-4 py-2 text-xs focus-visible:outline-2 focus-visible:outline-offset-4 ${overview===value ? "border-[#b6e400] bg-[#b6e400] text-black" : "border-white/20 bg-[#1a1a17] text-white"}`}>{value ? copy.overview : copy.focus}</button>)}
-            </div>
-            <ComposableMap width={600} height={500} projection="geoMercator" projectionConfig={{center: overview ? createCoordinates(21.7, 41.6) : createCoordinates(20.99, 41.895), scale: 10000}} className="mt-12 w-full" role="img" aria-label={copy.map_alt}>
-              <g transform={overview ? undefined : "translate(300 250) scale(6.5) translate(-300 -250)"}>
-              <Geographies geography={{type: "FeatureCollection", features: [boundary as GeographyProps["geography"]]}}>
-                {({geographies}) => geographies.map(geo => <Geography key={String(geo.id)} geography={geo} fill="#29352a" stroke="#70816a" strokeWidth={overview ? 1.2 : 0.3} style={{default:{outline:"none"},hover:{outline:"none"},pressed:{outline:"none"}}} />)}
-              </Geographies>
-              {places.map(place => (
-                <Marker key={place.id} coordinates={place.coordinates}>
-                  <g transform={overview ? undefined : "scale(0.153846)"}>
-                  <circle r={active === place.id ? 16 : 10} fill="#b6e400" opacity={0.14} />
-                  <circle r={active === place.id ? 6 : 4} fill={active === place.id ? "#b6e400" : "#f4f3ea"} stroke="#101410" strokeWidth={2} />
-                  {!overview && <text x={place.left ? -23 : 23} y={6} textAnchor={place.left ? "end" : "start"} fill={active === place.id ? "#b6e400" : "#f4f3ea"} fontSize={20} fontWeight={500}>{copy.places[place.id]}</text>}
-                  </g>
-                </Marker>
-              ))}
-              </g>
-            </ComposableMap>
-            <p className="px-5 pb-5 text-xs text-white/45">{copy.map_note}</p>
+        <div className="mb-9 flex flex-wrap items-end justify-between gap-6">
+          <div className="max-w-xl">
+            <SectionTag text={copy.tag} />
+            <h2 id="coverage-heading" className="mt-5 text-balance font-display text-[clamp(2rem,4vw,3.2rem)] font-light leading-tight">{copy.heading}</h2>
+            <p className="mt-4 max-w-lg text-base leading-relaxed text-white/60">{copy.description}</p>
           </div>
-          <div className="border-t border-white/10 bg-[#20251f] p-6 lg:border-l lg:border-t-0">
-            <p className="mb-5 text-xs uppercase tracking-widest text-white/50">{copy.locations}</p>
-            <div className="grid grid-cols-2 gap-2 lg:grid-cols-1">
-              {places.map((place,i) => <button key={place.id} type="button" aria-pressed={active === place.id} onClick={()=>{setActive(place.id);setOverview(false);}} className={`rounded-xl border p-4 text-left transition-colors focus-visible:outline-2 focus-visible:outline-offset-4 ${active === place.id ? "border-[#b6e400]/50 bg-[#b6e400]/10" : "border-white/10 hover:bg-white/5"}`}><span className="block text-xs text-[#b6e400]">0{i+1}{i===0 ? ` · ${copy.hq}` : ""}</span><span className="mt-2 block text-base">{copy.places[place.id]}</span></button>)}
-            </div>
-            <a href="/contact" className="mt-6 inline-block text-sm text-[#b6e400] underline underline-offset-4">{copy.check_address} →</a>
+          <Link href="/contact" className="inline-flex items-center gap-3 rounded-full border border-white/20 px-5 py-3 text-sm transition-colors hover:border-[#b6e400] hover:text-[#b6e400]">{copy.check_address}<span aria-hidden="true">↗</span></Link>
+        </div>
+        <div className="overflow-hidden rounded-2xl border border-white/15">
+          <div className="flex flex-wrap items-center gap-2 bg-[#262b24] p-3 md:p-4" aria-label={copy.locations}>
+            {serviceLocations.map((place,i) => <button key={place.id} type="button" aria-pressed={active===place.id} onClick={()=>select(place.id)} className={`flex min-h-11 items-center gap-2 rounded-full border px-4 py-2 text-sm transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 ${active===place.id ? "border-[#b6e400] bg-[#b6e400] text-[#1a1a17]" : "border-white/15 text-white/80 hover:bg-white/10"}`}><span className="text-[10px] opacity-60">{String(i+1).padStart(2,"0")}</span>{copy.places[place.id]}</button>)}
+            <button type="button" onClick={()=>{setActive(null);setResetToken(value=>value+1);}} className="min-h-11 px-3 text-sm text-[#b6e400] underline underline-offset-4 md:ml-auto">{copy.show_all}</button>
+          </div>
+          <div className="relative isolate z-0 h-[420px] bg-[#e6e8df] md:h-[480px]">
+            {visible ? <RegionalMap active={active} onSelect={select} resetToken={resetToken} /> : <div className="flex h-full items-center justify-center text-sm text-[#425343]">{copy.loading}</div>}
+          </div>
+          <div className="flex flex-wrap items-center justify-between gap-3 bg-[#262b24] px-5 py-4 text-xs text-white/55">
+            <p>{copy.map_note}</p>
+            <a href="https://www.openstreetmap.org/#map=11/41.895/20.99" target="_blank" rel="noreferrer" className="text-white/80 underline underline-offset-4">{copy.open_map} ↗</a>
           </div>
         </div>
       </div>

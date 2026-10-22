@@ -4,6 +4,7 @@ import { useRef } from "react";
 import Link from "next/link";
 import { motion, useScroll, useTransform, MotionValue } from "framer-motion";
 import SectionTag from "@/components/ui/SectionTag";
+import Image from "next/image";
 import { useI18n } from "@/lib/i18n";
 
 const servicesMeta = [
@@ -46,11 +47,11 @@ function ServiceCard({
   const scale = useTransform(progress, range, [1, targetScale]);
 
   return (
-    <div className="sticky" style={{ top: `calc(80px + ${i * 24}px)` }}>
+    <div className="md:sticky" style={{ top: `calc(80px + ${i * 24}px)` }}>
       <motion.div
         ref={cardRef}
         style={{ scale, backgroundColor: color }}
-        className="relative h-[520px] md:h-[560px] rounded-2xl overflow-hidden flex flex-col md:flex-row origin-top"
+        className="relative max-md:transform-none! md:h-[560px] rounded-2xl overflow-hidden flex flex-col md:flex-row origin-top"
       >
         <div className="flex flex-col justify-between p-8 md:p-12 w-full md:w-1/2 shrink-0 z-10">
           <div className="flex flex-col gap-6">
@@ -87,14 +88,11 @@ function ServiceCard({
           </Link>
         </div>
 
-        <div className="relative flex-1 overflow-hidden">
+        <div className="relative h-64 shrink-0 overflow-hidden md:h-auto md:flex-1">
           {imageSrc ? (
-            <motion.img
-              src={imageSrc}
-              alt={title}
-              style={{ y: imageY }}
-              className="absolute inset-0 w-full h-[118%] -top-[9%] object-cover"
-            />
+            <motion.div style={{ y: imageY }} className="absolute inset-0 -top-[9%] h-[118%] w-full max-md:transform-none!">
+              <Image src={imageSrc} alt={title} fill sizes="(max-width: 767px) 100vw, (max-width: 1280px) 50vw, 576px" className="object-cover" />
+            </motion.div>
           ) : (
             <div className="absolute inset-0 flex items-center justify-center">
               <svg aria-hidden="true" className="absolute inset-0 w-full h-full opacity-[0.07]">
@@ -107,7 +105,6 @@ function ServiceCard({
               </svg>
             </div>
           )}
-          <div className="absolute inset-0 md:hidden" style={{ background: `linear-gradient(to top, ${color} 20%, transparent 70%)` }} />
         </div>
       </motion.div>
     </div>
