@@ -18,7 +18,7 @@
 }
 
 /* ── Base Setup & Resets ── */
-/* Lenis controls scroll interpolation; avoid competing CSS smooth scrolling. */
+/* Lenis provides smooth wheel scrolling; touch keeps its native behavior. */
 
 body {
   background-color: var(--color-bg);
@@ -46,4 +46,25 @@ h1, h2, h3, h4, h5, h6 {
 ::-moz-selection {
   background-color: var(--color-accent);
   color: var(--color-bg-dark);
+}
+
+/* Sticky positioning is native; Motion only scales the cards, not their photos. */
+.service-stack-item {
+  position: sticky;
+  top: calc(80px + var(--card-index) * 10px);
+}
+.service-stack-card {
+  height: clamp(480px, calc(100svh - 152px), 580px);
+}
+@media (min-width: 768px) {
+  .service-stack-item { top: calc(80px + var(--card-index) * 24px); }
+  .service-stack-card { height: 560px; }
+}
+/* On short screens, let tall content scroll naturally so links stay reachable. */
+@media (max-height: 600px) {
+  .service-stack-item { position: relative; top: auto; }
+  .service-stack-card { transform: none !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .service-stack-card { transform: none !important; }
 }

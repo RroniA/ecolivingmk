@@ -2,8 +2,6 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { useRef } from "react";
-import { useScroll, useTransform } from "framer-motion";
 import SectionTag from "@/components/ui/SectionTag";
 import Button from "@/components/ui/Button";
 import WorkGallery from "@/components/WorkGallery";
@@ -51,25 +49,15 @@ function DotGrid() {
   );
 }
 
-function ParallaxImage({ src, alt }: { src: string; alt: string }) {
-  const ref = useRef<HTMLDivElement>(null);
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: ["start end", "end start"],
-  });
-  const y = useTransform(scrollYProgress, [0, 1], ["-8%", "8%"]);
-
+function ServiceImage({ src, alt }: { src: string; alt: string }) {
   return (
     /*
       A landscape frame on mobile keeps service equipment visible.
     */
     <div
-      ref={ref}
       className="relative w-full overflow-hidden rounded-2xl aspect-[4/3] md:aspect-auto md:h-[560px]"
     >
-      <motion.div style={{ y }} className="absolute inset-0 -top-[8%] h-[116%] w-full">
-        <Image src={src} alt={alt} fill sizes="(max-width: 1280px) 100vw, 1152px" className="object-cover" />
-      </motion.div>
+      <Image src={src} alt={alt} fill sizes="(max-width: 1280px) 100vw, 1152px" className="object-cover" />
       <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-black/10" />
     </div>
   );
@@ -169,7 +157,7 @@ export default function ServicePage({
             </div>
           </FadeUp>
           <FadeUp delay={0.3} className="mt-14">
-            {imageSrc ? <ParallaxImage src={imageSrc} alt={imageAlt ?? `${ui.image_alt} ${tag}`} /> : <PlaceholderImage label={ui.placeholder} />}
+            {imageSrc ? <ServiceImage src={imageSrc} alt={imageAlt ?? `${ui.image_alt} ${tag}`} /> : <PlaceholderImage label={ui.placeholder} />}
           </FadeUp>
         </div>
       </section>

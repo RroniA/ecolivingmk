@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 import Link from "next/link";
-import { motion, useScroll, useTransform, MotionValue } from "framer-motion";
+import { motion, useScroll, useTransform, useReducedMotion, MotionValue } from "framer-motion";
 import SectionTag from "@/components/ui/SectionTag";
 import Image from "next/image";
 import { useI18n } from "@/lib/i18n";
@@ -37,24 +37,17 @@ function ServiceCard({
   index, title, description, href, color, accent, imageSrc,
   i, progress, range, targetScale, viewDetails, label,
 }: CardProps) {
-  const cardRef = useRef<HTMLDivElement>(null);
-
-  const { scrollYProgress: imageProgress } = useScroll({
-    target: cardRef,
-    offset: ["start end", "start start"],
-  });
-  const imageY = useTransform(imageProgress, [0, 1], ["-18%", "0%"]);
+  const reducedMotion = useReducedMotion();
   const scale = useTransform(progress, range, [1, targetScale]);
 
   return (
-    <div className="md:sticky" style={{ top: `calc(80px + ${i * 24}px)` }}>
+    <div className="service-stack-item" style={{ "--card-index": i } as React.CSSProperties}>
       <motion.div
-        ref={cardRef}
-        style={{ scale, backgroundColor: color }}
-        className="relative max-md:transform-none! md:h-[560px] rounded-2xl overflow-hidden flex flex-col md:flex-row origin-top"
+        style={{ scale: reducedMotion ? 1 : scale, backgroundColor: color }}
+        className="service-stack-card relative md:h-[560px] rounded-2xl overflow-hidden flex flex-col md:flex-row origin-top"
       >
-        <div className="flex flex-col justify-between p-8 md:p-12 w-full md:w-1/2 shrink-0 z-10">
-          <div className="flex flex-col gap-6">
+        <div className="flex flex-col justify-between p-6 md:p-12 w-full md:w-1/2 shrink-0 z-10">
+          <div className="flex flex-col gap-4 md:gap-6">
             <div className="flex items-center justify-between">
               <span className="font-['Jost'] text-[11px] uppercase tracking-widest" style={{ color: `${accent}99` }}>
                 {index}
@@ -64,7 +57,7 @@ function ServiceCard({
               </span>
             </div>
 
-            <h3 className="font-['Geologica'] text-[clamp(1.8rem,3.5vw,2.8rem)] font-light leading-tight tracking-[-0.02em] text-[#f4f3ea]">
+            <h3 className="font-['Geologica'] text-[clamp(1.6rem,3.5vw,2.8rem)] font-light leading-tight tracking-[-0.02em] text-[#f4f3ea]">
               {title}
             </h3>
 
@@ -73,7 +66,7 @@ function ServiceCard({
             </p>
           </div>
 
-          <Link href={href} className="group inline-flex items-center gap-3 mt-8">
+          <Link href={href} className="group inline-flex items-center gap-3 mt-5 md:mt-8">
             <span
               className="w-10 h-10 rounded-full border flex items-center justify-center transition-all duration-300 group-hover:scale-110"
               style={{ borderColor: accent, color: accent }}
@@ -88,11 +81,9 @@ function ServiceCard({
           </Link>
         </div>
 
-        <div className="relative h-64 shrink-0 overflow-hidden md:h-auto md:flex-1">
+        <div className="relative min-h-0 flex-1 overflow-hidden">
           {imageSrc ? (
-            <motion.div style={{ y: imageY }} className="absolute inset-0 -top-[9%] h-[118%] w-full max-md:transform-none!">
-              <Image src={imageSrc} alt={title} fill sizes="(max-width: 767px) 100vw, (max-width: 1280px) 50vw, 576px" className="object-cover" />
-            </motion.div>
+            <Image src={imageSrc} alt={title} fill sizes="(max-width: 767px) 100vw, (max-width: 1280px) 50vw, 576px" className="object-cover" />
           ) : (
             <div className="absolute inset-0 flex items-center justify-center">
               <svg aria-hidden="true" className="absolute inset-0 w-full h-full opacity-[0.07]">
@@ -139,7 +130,7 @@ export default function Services() {
         <div ref={containerRef} className="relative flex flex-col gap-4">
           {t.services.items.map((item, i) => {
             const meta = servicesMeta[i];
-            const targetScale = 1 - (t.services.items.length - i - 1) * 0.07;
+            const targetScale = 1 - (t.services.items.length - i - 1) * 0.035;
             return (
               <ServiceCard
                 key={meta.href}
